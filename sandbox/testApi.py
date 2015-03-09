@@ -28,6 +28,7 @@ for event_key in event_keys:
 		root = j["results"]
 		continue
 
+	j = json.loads(r.content)
 	root.append(j["results"][0])
 	print event_key
 
