@@ -1,4 +1,5 @@
 from pprint import pprint
+
 f = open('records.csv', 'r')
 
 i = 0 
@@ -28,11 +29,8 @@ for line in f:
                 master[index] = record.copy()
             else:
                 if val != "":
-                    print index, j, val
                     master[index][keyDict[j]] += 1
             j+=1
     i+=1
-
 f.close()
-
 pprint(master)
