@@ -28,11 +28,12 @@ for event_key in event_keys:
 		root = j["results"]
 		continue
 
-	j = json.loads(r.content)
-	root.append(j["results"][0])
-	print event_key
+	if(r.status_code == 200):
+		j = json.loads(r.content)
+		root.append(j["results"][0])
+		print event_key
 
-	time.sleep(0.5)
+		time.sleep(0.5)
 
 json.dump(root, w, indent=4)
 
