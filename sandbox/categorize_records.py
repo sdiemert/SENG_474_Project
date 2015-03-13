@@ -14,8 +14,9 @@ for line in f:
         for tag in line.split(','): 
             tag = tag.strip()
             cat = tag.split('.')[0]
-            record[cat] = 0
-            keyDict[j] = cat
+            if cat != "":
+                record[cat] = 0
+                keyDict[j] = cat
             j+=1
         print keyDict
         print record
@@ -29,6 +30,7 @@ for line in f:
                 master[index] = record.copy()
             else:
                 if val != "":
+                    print index, j, keyDict[j]
                     master[index][keyDict[j]] += 1
             j+=1
     i+=1
