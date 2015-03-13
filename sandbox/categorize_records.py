@@ -1,4 +1,5 @@
 from pprint import pprint
+import json
 
 f = open('records.csv', 'r')
 
@@ -36,3 +37,6 @@ for line in f:
     i+=1
 f.close()
 pprint(master)
+fout = open('categorized_records.json', 'w')
+json.dump(master, fout)
+fout.close()
