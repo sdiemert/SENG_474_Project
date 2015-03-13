@@ -4,6 +4,7 @@ import nltk
 from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
 from pprint import pprint
+import random
 
 def parse_maude_data(filename):
   """
@@ -14,7 +15,6 @@ def parse_maude_data(filename):
     "count": Count of the word appearing in "mdr_text" of the JSON entry
     "part_of_speech": Part of speech as defined by the nltk with the taggers/maxent_treebank_pos_tagger/english.pickle file.
   }
-
   """
 
   parsed = OrderedDict()
@@ -63,42 +63,58 @@ def parse_maude_data(filename):
           parsed[event_key][word] = new_entry
   return parsed
 
-def write_json_to_file(j, output_filename):
-  with open(output_filename, "w") as output_file:
-    json.dump(j, output_file, indent=4)  
-
-def read_json_from_file(input_filename):
-  input_json = None
-  with open(input_filename, "r") as f:
-    input_json = json.loads(f.read())
-  return input_json
-
-#   weka_file = open("weka.arff", "w")
 
 def generate_weka_data(parsed, weka_filename):
+  # Read classes such as PointOfDecision or PointOfCare
+  classes = read_json_from_file("categorized_records.json")
+  class_values = classes[random.choice(classes.keys())].keys()
+
   # Get a set of all words used
   all_words = set()
   for event_key, words in parsed.items():
     all_words.update(words.keys())
   all_words = list(all_words)
 
+  # Write metadata for the ARFF file
   weka_file = open(weka_filename, "w")
   weka_file.write("@relation seng474\n")
   for word in all_words:
     weka_file.write("@attribute {} NUMERIC\n".format(word))
+  weka_file.write("@attribute class {{{}}}\n".format(', '.join(class_values)))
+
   weka_file.write("@data\n")
 
+  # Write @data
   for event_key, words in parsed.items():
-    count_string = [0] * len(all_words)
+    if event_key not in classes:
+      continue
+
+    word_count_string = [0] * len(all_words)
+    # class_count_string = [0] * len(class_values)
 
     for word, count in words.items():
       index = all_words.index(word)
-      count_string[index] = count["count"]
+      word_count_string[index] = count["count"]
 
-    weka_file.write(','.join([str(x) for x in count_string]))
-    weka_file.write('\n')
+    for index, class_value in enumerate(class_values):
+      count = classes[event_key][class_value]
+      if count > 0:
+        weka_file.write(','.join([str(x) for x in word_count_string + [class_value]]))
+        weka_file.write('\n')
 
   weka_file.close()
+
+
+def write_json_to_file(j, output_filename):
+  with open(output_filename, "w") as output_file:
+    json.dump(j, output_file, indent=4)  
+
+
+def read_json_from_file(input_filename):
+  input_json = None
+  with open(input_filename, "r") as f:
+    input_json = json.loads(f.read())
+  return input_json
 
 
 def main():

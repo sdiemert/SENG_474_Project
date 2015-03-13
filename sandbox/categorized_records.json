@@ -1,1 +1,3161 @@
-{"": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 0, "MDDS": 0, "HealthCareProcess": 0}, "911112": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 1, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "883711": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 1, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "926623": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 1, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1000349": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2711095": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1834713": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1060683": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 3, "MDDS": 0, "HealthCareProcess": 0}, "1172391": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1733668": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1353455": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 1, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "936309": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2291631": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "949037": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1577749": {"PointOfDecision": 2, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "1577745": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "936280": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "935649": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2263139": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "846169": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "911128": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 1, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1639470": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "3502101": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1029070": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1018195": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "880624": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "880623": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1379926": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1404395": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1656460": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 1, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1580681": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2291642": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1942517": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1840208": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 2}, "1282025": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 1, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "1750191": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 1}, "1545506": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "954423": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1725683": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "1721424": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 3, "TechnicalProcess": 3, "MDDS": 0, "HealthCareProcess": 0}, "3060665": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1398154": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1205690": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "3305444": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1349104": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "918312": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 1}, "1750829": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 2}, "1900977": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 4}, "931457": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1544739": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2512883": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1649803": {"PointOfDecision": 2, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2216033": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2216032": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2216034": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2582914": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "3311022": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1097561": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "954643": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "3166177": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2190742": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 0, "EMR": 3, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "911160": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1610365": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "851604": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1083564": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1700028": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 1, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1413879": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1051313": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1150091": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "1359124": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 1}, "1365323": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "757384": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1310518": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "2049907": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1096285": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1760750": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "1282065": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "658797": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1416625": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "3246975": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "756097": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 4, "MDDS": 0, "HealthCareProcess": 2}, "1474026": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "3339296": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "3339297": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1272465": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "2854922": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 3}, "3339298": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1477348": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "836857": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 1}, "1753065": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "678815": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 1, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2188666": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2163545": {"PointOfDecision": 1, "PointOfCare": 3, "CareProvider": 0, "EMR": 3, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "2163546": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 1, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1357884": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "2645713": {"PointOfDecision": 2, "PointOfCare": 2, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "2372013": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "2588546": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2382462": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "955184": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 1, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1832373": {"PointOfDecision": 1, "PointOfCare": 2, "CareProvider": 1, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "587263": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2260917": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1456887": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2202130": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1657877": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "775918": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1247673": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1669416": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1669414": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 1, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1075747": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2597432": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1547765": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "921494": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1581240": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1894181": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2597446": {"PointOfDecision": 2, "PointOfCare": 2, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1571439": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1845000": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1882021": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1898182": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 1, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1696470": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1770066": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "871981": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "751931": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "873052": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 0, "EMR": 3, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1744439": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 1, "EMR": 0, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1578421": {"PointOfDecision": 2, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1674835": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2020667": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "3135550": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1032073": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 1, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "963360": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1774313": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1774314": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "1840232": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 3, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1665473": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "920299": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "3020754": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1891144": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "2532819": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "695982": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1666385": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1802943": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "1666384": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1793598": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1277675": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "1009124": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "2614856": {"PointOfDecision": 0, "PointOfCare": 2, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "861144": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2183803": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2661524": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1558411": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1631563": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1034602": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "765201": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "574617": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "753029": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1812602": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "954652": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "1628078": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "1474582": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "1564745": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2596052": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 1}, "666457": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 1}, "2338445": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 3}, "715521": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1008018": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 1, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2529835": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 2}, "1977863": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "670024": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 3, "MDDS": 0, "HealthCareProcess": 0}, "996685": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "752167": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "998059": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "998058": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "715739": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 1}, "2382487": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2589834": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "2382485": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1577738": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "3149555": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "696006": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1292183": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "584279": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 1, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "2188692": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1849976": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2893645": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "834678": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1713653": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 1}, "1577753": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1711538": {"PointOfDecision": 2, "PointOfCare": 4, "CareProvider": 0, "EMR": 5, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1734535": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "3305468": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "926163": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 3}, "669996": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "722614": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1360248": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1248154": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1823527": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1644272": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2814143": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "1544756": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1845011": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 2, "MDDS": 1, "HealthCareProcess": 2}, "686935": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "2565239": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "911144": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1653583": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1653582": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2689956": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1054363": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 1, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 1}, "2713672": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1414861": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "670007": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1887575": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 1}, "3365722": {"PointOfDecision": 2, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "907109": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2904495": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "998067": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "998064": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "998065": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "998062": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "998063": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "998060": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "998061": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1669413": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1581694": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1581692": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2524814": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1712727": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1404752": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "737005": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2423586": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 3, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "3354787": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1661614": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2883377": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1062230": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1783041": {"PointOfDecision": 0, "PointOfCare": 2, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1658771": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "976469": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 4, "MDDS": 0, "HealthCareProcess": 0}, "920819": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "3289331": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1028228": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1765044": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "927280": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 3, "MDDS": 0, "HealthCareProcess": 0}, "1759847": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2088167": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2216057": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2216056": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2111257": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "904048": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "664137": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1828653": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2053052": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 4}, "1148841": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "911067": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1843551": {"PointOfDecision": 2, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "2528592": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "911105": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 1, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2267000": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2309001": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1894727": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "999897": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "903533": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 1, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2948908": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "574578": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1365512": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1834723": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "576447": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1672777": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1664439": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "975910": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 1}, "823580": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1386659": {"PointOfDecision": 2, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1584195": {"PointOfDecision": 0, "PointOfCare": 4, "CareProvider": 0, "EMR": 3, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "976896": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 3, "MDDS": 0, "HealthCareProcess": 0}, "663423": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "946706": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "3014425": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "2845222": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1083548": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 1, "EMR": 0, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "670132": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "2137052": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1373210": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "1521208": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1711484": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "734859": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 1}, "775936": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 1}, "888215": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1360396": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2343962": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "1657425": {"PointOfDecision": 0, "PointOfCare": 2, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1773809": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1574909": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2531657": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1832389": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 1}, "1486241": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "937591": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "3339308": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1832387": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 1, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "3300008": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 3, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "1648207": {"PointOfDecision": 1, "PointOfCare": 2, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "686923": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "902599": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 1, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 1}, "809466": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1300683": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2190787": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "911156": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1820857": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 1}, "2386598": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "688925": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2527955": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1456916": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 1}, "1843508": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2431076": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 2}, "1430561": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "938508": {"PointOfDecision": 2, "PointOfCare": 2, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1370640": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 1, "HealthCareProcess": 0}, "938505": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1396757": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2585131": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "715963": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "3342067": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1673483": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 3, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1673481": {"PointOfDecision": 2, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2265468": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2627204": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 2}, "2265467": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 0}, "2264023": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "977219": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "766883": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 3, "MDDS": 0, "HealthCareProcess": 0}, "909814": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 1, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1183929": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "909816": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1714081": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "3339289": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "755903": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 1}, "662232": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1056958": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1570801": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1729552": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 1}, "670101": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2530877": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "2088203": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 1, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "969197": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1658762": {"PointOfDecision": 2, "PointOfCare": 0, "CareProvider": 0, "EMR": 2, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "976471": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 4, "MDDS": 0, "HealthCareProcess": 0}, "1046171": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1160913": {"PointOfDecision": 0, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "927860": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 2}, "1563146": {"PointOfDecision": 1, "PointOfCare": 1, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}, "1686631": {"PointOfDecision": 0, "PointOfCare": 0, "CareProvider": 0, "EMR": 0, "TechnicalProcess": 2, "MDDS": 0, "HealthCareProcess": 2}, "2894316": {"PointOfDecision": 1, "PointOfCare": 0, "CareProvider": 0, "EMR": 1, "TechnicalProcess": 1, "MDDS": 0, "HealthCareProcess": 0}}
+{
+    "911112": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "883711": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "926623": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1000349": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2711095": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1834713": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1060683": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 3, 
+        "HealthCareProcess": 0
+    }, 
+    "1733668": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1353455": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "936309": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2291631": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "949037": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1577749": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "2854922": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 3
+    }, 
+    "955184": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2263139": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "846169": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "911128": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1639470": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3502101": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1029070": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1018195": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "880624": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "880623": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1379926": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1404395": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1656460": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1580681": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2291642": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1942517": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1840208": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 2
+    }, 
+    "1282025": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "1750191": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 1
+    }, 
+    "1545506": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "954423": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1725683": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "1721424": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 3, 
+        "TechnicalProcess": 3, 
+        "HealthCareProcess": 0
+    }, 
+    "3060665": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1398154": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1205690": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3305444": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1349104": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "918312": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 1
+    }, 
+    "1750829": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "946706": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "931457": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1544739": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2512883": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "823580": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1649803": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2216033": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2216032": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2216034": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2582914": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3311022": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1097561": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "954643": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3166177": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2190742": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 3, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "911160": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1610365": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "851604": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1083564": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1172391": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1413879": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1051313": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1150091": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "1359124": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 1
+    }, 
+    "1365323": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "757384": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1310518": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "2049907": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1096285": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1760750": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "1282065": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "658797": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1416625": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3246975": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "756097": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 4, 
+        "HealthCareProcess": 2
+    }, 
+    "1474026": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3339296": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3339297": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1272465": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "1577745": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3339298": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1477348": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "836857": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 1
+    }, 
+    "1753065": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "678815": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2188666": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2163545": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 3, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 3, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "861144": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1357884": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "2645713": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 2, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "2372013": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "664137": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2382462": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "936280": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "1832373": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 2, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "587263": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3305468": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1456887": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2202130": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1657877": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "775918": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1247673": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1669416": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1669414": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1075747": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2597432": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1547765": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "921494": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1581240": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1894181": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2597446": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 2, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1571439": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1845000": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1882021": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1898182": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1696470": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1770066": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1370640": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "751931": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "873052": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 3, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1744439": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 1, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1578421": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1674835": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2020667": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3135550": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1032073": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 1, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1360248": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1774313": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1774314": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "1840232": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 3, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1665473": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "920299": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "3020754": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1891144": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "2532819": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "938505": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1802943": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "1666384": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1793598": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1277675": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "1009124": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "2614856": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 2, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2163546": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2183803": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2661524": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1558411": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1631563": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1034602": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "765201": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "574617": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "753029": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1812602": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "954652": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "1628078": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "1474582": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "1564745": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2596052": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 1
+    }, 
+    "666457": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 1
+    }, 
+    "2338445": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 3
+    }, 
+    "715521": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1008018": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2529835": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 2
+    }, 
+    "1977863": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "670024": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 3, 
+        "HealthCareProcess": 0
+    }, 
+    "996685": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "752167": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "998059": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "998058": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "715739": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 1
+    }, 
+    "1673483": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 3, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2589834": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "1673481": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1577738": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3149555": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "696006": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1292183": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "584279": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "2188692": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1849976": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2893645": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "834678": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1713653": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 1
+    }, 
+    "2264023": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1711538": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 4, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 5, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2565239": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2260917": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "926163": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 3
+    }, 
+    "669996": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "722614": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "963360": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1248154": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1823527": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1644272": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2814143": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "1544756": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1845011": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 2, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 2
+    }, 
+    "686935": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1734535": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "911144": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1653583": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1653582": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2689956": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1054363": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 1
+    }, 
+    "695982": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1414861": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "670007": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1887575": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 1
+    }, 
+    "3365722": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "907109": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2904495": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "998067": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "998064": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "998065": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "998062": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "935649": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "998060": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "998061": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1669413": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1581694": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1581692": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2524814": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1712727": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1404752": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "737005": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2713672": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3354787": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1661614": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2883377": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1062230": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1783041": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 2, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1658771": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "976469": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 4, 
+        "HealthCareProcess": 0
+    }, 
+    "920819": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3289331": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1028228": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1729552": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 1
+    }, 
+    "927280": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 3, 
+        "HealthCareProcess": 0
+    }, 
+    "1759847": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1700028": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2216057": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2216056": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2111257": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "904048": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2588546": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1828653": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2053052": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 4
+    }, 
+    "1148841": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "911067": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1843551": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "2528592": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "911105": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2267000": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2309001": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1894727": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "999897": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "903533": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2948908": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "574578": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1365512": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1834723": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2088167": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "576447": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1672777": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1664439": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "975910": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 1
+    }, 
+    "1577753": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1386659": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1584195": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 4, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 3, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "976896": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 3, 
+        "HealthCareProcess": 0
+    }, 
+    "663423": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1900977": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 4
+    }, 
+    "3014425": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2845222": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1083548": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "670132": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "2137052": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1373210": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 1, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1521208": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1711484": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "734859": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 1
+    }, 
+    "775936": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 1
+    }, 
+    "888215": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "998063": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1360396": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2343962": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "1657425": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 2, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1773809": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1574909": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2423586": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 3, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2531657": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1832389": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 1
+    }, 
+    "1486241": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "937591": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3339308": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1832387": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3300008": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 3, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "1648207": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 2, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "686923": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "902599": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 1
+    }, 
+    "809466": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1300683": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2190787": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "911156": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1820857": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 1
+    }, 
+    "2386598": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "688925": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2527955": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1456916": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 1
+    }, 
+    "1843508": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2431076": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 2
+    }, 
+    "1430561": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "938508": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 2, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1666385": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1396757": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2585131": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "715963": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3342067": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2382487": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2382485": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2265468": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2627204": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 2
+    }, 
+    "2265467": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "977219": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "766883": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 3, 
+        "HealthCareProcess": 0
+    }, 
+    "909814": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1183929": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "909816": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1714081": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "3339289": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "755903": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 1
+    }, 
+    "662232": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1056958": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1570801": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1765044": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 0
+    }, 
+    "670101": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2530877": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "2088203": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 1, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "969197": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "871981": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1658762": {
+        "PointOfDecision": 2, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 2, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "976471": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 4, 
+        "HealthCareProcess": 0
+    }, 
+    "1046171": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1160913": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "927860": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 2
+    }, 
+    "1563146": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 1, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }, 
+    "1686631": {
+        "PointOfDecision": 0, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 0, 
+        "TechnicalProcess": 2, 
+        "HealthCareProcess": 2
+    }, 
+    "2894316": {
+        "PointOfDecision": 1, 
+        "PointOfCare": 0, 
+        "CareProvider": 0, 
+        "MDDS": 0, 
+        "EMR": 1, 
+        "TechnicalProcess": 1, 
+        "HealthCareProcess": 0
+    }
+}
