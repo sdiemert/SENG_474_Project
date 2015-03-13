@@ -1,0 +1,66 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     liability
+Instances:    361
+Attributes:   6
+              manufacturer_name
+              device_operator
+              reporter_occupation_code
+              device_report_product_code
+              expired
+              class
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=6 #classindex=5
+Network structure (nodes followed by parents)
+manufacturer_name(183): class 
+device_operator(14): class 
+reporter_occupation_code(22): class 
+device_report_product_code(124): class 
+expired(2): class 
+class(5): 
+LogScore Bayes: -5263.577570372496
+LogScore BDeu: -17977.76536332756
+LogScore MDL: -14039.630900961825
+LogScore ENTROPY: -9022.306880462213
+LogScore AIC: -10726.306880462213
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         256               70.9141 %
+Incorrectly Classified Instances       105               29.0859 %
+Kappa statistic                          0.4204
+Mean absolute error                      0.1449
+Root mean squared error                  0.2967
+Relative absolute error                 70.2626 %
+Root relative squared error             92.7659 %
+Total Number of Instances              361     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0          0         0         0          0.258    Death
+                 0.664     0.229      0.606     0.664     0.634      0.797    Injury
+                 0.785     0.324      0.789     0.785     0.787      0.806    Malfunction
+                 0.111     0.014      0.167     0.111     0.133      0.702    Other
+                 0         0          0         0         0          0.892    No answer provided
+Weighted Avg.    0.709     0.276      0.693     0.709     0.7        0.794
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+   0   4   1   0   0 |   a = Death
+   0  83  40   2   0 |   b = Injury
+   0  44 172   3   0 |   c = Malfunction
+   0   5   3   1   0 |   d = Other
+   0   1   2   0   0 |   e = No answer provided
+

@@ -1,0 +1,408 @@
+=== Run information ===
+
+Scheme:weka.classifiers.rules.Prism 
+Relation:     liability
+Instances:    361
+Attributes:   6
+              manufacturer_name
+              device_operator
+              reporter_occupation_code
+              device_report_product_code
+              expired
+              class
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Prism rules
+----------
+If manufacturer_name = BIOTRONIK-SE-&-CO.-KG then Death
+If manufacturer_name = MEDTRONIC-IRELAND
+   and device_operator = HEALTH-PROFESSIONAL then Death
+If manufacturer_name = CORDIS-DE-MEXICO
+   and expired = TRUE then Death
+If reporter_occupation_code = ATTORNEY
+   and manufacturer_name = MEDTRONIC-PUERTO-RICO-INC. then Death
+If device_report_product_code = NVZ
+   and manufacturer_name = MEDTRONIC-MED-REL-INC. then Death
+If manufacturer_name = CPI---DEL-CARIBE then Injury
+If manufacturer_name = ST-JUDE-MEDICAL-CARDIAC-RHYTHM-MANAGEMENT-DIVISION then Injury
+If device_report_product_code = KWA then Injury
+If manufacturer_name = DEPUY-ORTHOPAEDICS-INC. then Injury
+If manufacturer_name = GUIDANT-CRM-CLONMEL-IRELAND then Injury
+If manufacturer_name = MEDTRONIC-NEUROMODULATION then Injury
+If manufacturer_name = SORIN-CRM then Injury
+If manufacturer_name = MEDTRONIC-S.A. then Injury
+If manufacturer_name = DAVOL-INC.-SUB.-C.R.-BARD-INC. then Injury
+If manufacturer_name = BAXTER-HEALTHCARE then Injury
+If manufacturer_name = DEPUY-WARSAW then Injury
+If manufacturer_name = ELI-LILLY-AND-CO. then Injury
+If manufacturer_name = SORIN-CRM-S.R.L. then Injury
+If manufacturer_name = COOK-INC. then Injury
+If manufacturer_name = BIOHORIZONS-IMPLANT-SYSTEMS-INC. then Injury
+If manufacturer_name = COOK-BIOTECH-INC. then Injury
+If manufacturer_name = W.L.-GORE-&-ASSOCIATES then Injury
+If manufacturer_name = CODMAN-AND-SHURTLEFF-INC then Injury
+If manufacturer_name = ROCHE-DIAGNOSTICS-CORP. then Injury
+If manufacturer_name = NXSTAGE-MEDICAL-INC. then Injury
+If manufacturer_name = VASCULAR-SOLUTIONS-INC. then Injury
+If manufacturer_name = EV3-NEUROVASCULAR then Injury
+If manufacturer_name = EDWARDS-LIFESCIENCES then Injury
+If manufacturer_name = BAXTER-HEALTHCARE---CLEVELAND then Injury
+If manufacturer_name = ST.-JUDE-MEDICAL---NEUROMODULATION then Injury
+If manufacturer_name = ATHLONE then Injury
+If manufacturer_name = MEDTRONIC-INC.-NEUROLOGICAL-DIVISION then Injury
+If manufacturer_name = DEPUY-RAYNHAM-A-DIVISION-OF-DEPUY-ORTHOPAEDICS-INC. then Injury
+If manufacturer_name = SOLTA-MEDICAL then Injury
+If manufacturer_name = FRESENIUS-MEDICAL-CARE then Injury
+If manufacturer_name = ABBOTT-VASCULAR---CARDIAC-THERAPIES then Injury
+If manufacturer_name = MEDTRONIC-INC.-CARDIAC-RHYTHM-MANAGEMENT-DIVISION then Injury
+If manufacturer_name = COOPERVISION-MANUFACTURING-LTD. then Injury
+If manufacturer_name = MEDTRONIC then Injury
+If manufacturer_name = ZIMMER-GMBH then Injury
+If manufacturer_name = MENTOR then Injury
+If manufacturer_name = MDT-PUERTO-RICO-OPERATIONS-CO then Injury
+If manufacturer_name = BAUSCH-&-LOMB-INC. then Injury
+If manufacturer_name = BOSTON-SCIENTIFIC-CORPORATION then Injury
+If manufacturer_name = TRINITY-STERILE-INC. then Injury
+If manufacturer_name = BOSTON-SCIENTIFIC---MIAMI then Injury
+If manufacturer_name = DEPUY-MITEK then Injury
+If manufacturer_name = MDT-PUERTO-RICO-OPERATIONS-CO.-JUNCOS then Injury
+If manufacturer_name = ST-JUDE-MEDICAL---NEUROMODULATION-DIV then Injury
+If manufacturer_name = ALCON---FORT-WORTH/ALCON-LABORATORIES-INC. then Injury
+If manufacturer_name = CORNEAL then Injury
+If manufacturer_name = DEPUY-INTL.-LTD.-?-REG.-#-8010379 then Injury
+If manufacturer_name = DEPUY-RAYNHAM then Injury
+If reporter_occupation_code = AUDIOLOGIST then Injury
+If manufacturer_name = MEDTRONIC-MED-REL-INC.
+   and reporter_occupation_code = PHYSICIAN then Injury
+If manufacturer_name = MEDTRONIC-PUERTO-RICO-INC.
+   and device_report_product_code = DXY then Injury
+If device_report_product_code = DTB
+   and reporter_occupation_code = PHYSICIAN then Injury
+If manufacturer_name = MEDTRONIC-MED-REL-INC.
+   and reporter_occupation_code = MEDICAL-EQUIPMENT-COMPANY-TECHNICIAN/REPRESENTATIVE then Injury
+If manufacturer_name = MEDTRONIC-MINIMED
+   and device_report_product_code = LZG then Injury
+If manufacturer_name = CORDIS-DE-MEXICO
+   and expired = FALSE then Injury
+If manufacturer_name = MEDTRONIC-PUERTO-RICO-INC.
+   and reporter_occupation_code = PHYSICIAN
+   and device_operator = LAY-USER/PATIENT then Injury
+If manufacturer_name = MEDTRONIC-MED-REL-INC.
+   and device_report_product_code = LWS then Injury
+If device_report_product_code = FTL
+   and reporter_occupation_code = OTHER then Injury
+If device_report_product_code = DTB
+   and manufacturer_name = CARDIAC-PACEMAKERS-INC then Injury
+If reporter_occupation_code = INVALID-DATA
+   and device_report_product_code = LWS then Injury
+If device_report_product_code = MAF
+   and manufacturer_name = BOSTON-SCIENTIFIC then Injury
+If device_report_product_code = DXY
+   and manufacturer_name = MEDTRONIC-MED-REL-INC. then Injury
+If device_report_product_code = MGB
+   and manufacturer_name = ST.-JUDE-MEDICAL then Injury
+If manufacturer_name = ANIMAS-CORP.
+   and reporter_occupation_code = OTHER then Injury
+If manufacturer_name = DISETRONIC-MEDICAL-SYSTEMS-INC.
+   and device_report_product_code = FPA then Injury
+If manufacturer_name = BOSTON-SCIENTIFIC---MAPLE-GROVE
+   and device_operator = HEALTH-PROFESSIONAL
+   and reporter_occupation_code = PHYSICIAN
+   and device_report_product_code = MAF
+   and expired = FALSE then Injury
+If manufacturer_name = MEDTRONIC-MINIMED
+   and reporter_occupation_code = NOT-APPLICABLE then Injury
+If manufacturer_name = MEDTRONIC-PUERTO-RICO-OPERATIONS-MED-REL
+   and device_operator = LAY-USER/PATIENT
+   and reporter_occupation_code = NOT-APPLICABLE
+   and device_report_product_code = LZG
+   and expired = FALSE then Injury
+If device_report_product_code = GAM
+   and reporter_occupation_code = NOT-APPLICABLE then Injury
+If manufacturer_name = CARDIAC-PACEMAKERS-INC
+   and reporter_occupation_code = PHYSICIAN
+   and expired = TRUE
+   and device_operator = UNKNOWN
+   and device_report_product_code = LWS then Injury
+If manufacturer_name = AV-TEMECULA-CT
+   and device_report_product_code = MGB then Injury
+If manufacturer_name = ABBOTT-VASCULAR-CARDIAC-THERAPIES
+   and device_report_product_code = NIQ then Injury
+If manufacturer_name = ROCHE-INSULIN-DELIVERY-SYSTEMS-INC.
+   and device_operator = LAY-USER/PATIENT
+   and reporter_occupation_code = UNKNOWN
+   and device_report_product_code = LZG
+   and expired = FALSE then Injury
+If device_report_product_code = DTB
+   and manufacturer_name = MEDTRONIC-PUERTO-RICO-INC.
+   and device_operator = LAY-USER/PATIENT
+   and reporter_occupation_code = INVALID-DATA
+   and expired = FALSE then Injury
+If device_report_product_code = LYJ
+   and device_operator = LAY-USER/PATIENT
+   and reporter_occupation_code = OTHER then Injury
+If device_report_product_code = DXY
+   and reporter_occupation_code = LAY-USER/PATIENT
+   and manufacturer_name = CARDIAC-PACEMAKERS-INC
+   and device_operator = UNKNOWN
+   and expired = FALSE then Injury
+If manufacturer_name = LIFESCAN-INC.
+   and reporter_occupation_code = PATIENT
+   and device_operator = LAY-USER/PATIENT then Injury
+If manufacturer_name = ETHICON-ENDO-SURGERY-LLC.
+   and device_report_product_code = FZP
+   and device_operator = HEALTH-PROFESSIONAL
+   and reporter_occupation_code = OTHER
+   and expired = FALSE then Injury
+If manufacturer_name = LIFESCAN-INC.
+   and reporter_occupation_code = LAY-USER/PATIENT
+   and device_operator = LAY-USER/PATIENT
+   and device_report_product_code = NBW
+   and expired = FALSE then Injury
+If manufacturer_name = BOSTON-SCIENTIFIC
+   and reporter_occupation_code = PHYSICIAN
+   and device_report_product_code = NIQ
+   and device_operator = HEALTH-PROFESSIONAL
+   and expired = FALSE then Injury
+If manufacturer_name = CARDIAC-PACEMAKERS-INC
+   and reporter_occupation_code = PHYSICIAN
+   and device_operator = UNKNOWN
+   and device_report_product_code = LWS then Injury
+If manufacturer_name = ROCHE-DIAGNOSTICS
+   and reporter_occupation_code = UNKNOWN then Injury
+If device_report_product_code = MKJ then Malfunction
+If device_report_product_code = FRN then Malfunction
+If device_report_product_code = JAA then Malfunction
+If manufacturer_name = LIFESCAN-EUROPE-A-DIVISION-OF-CILAG-GMBH-INTL then Malfunction
+If reporter_occupation_code = MEDICAL-TECHNOLOGIST then Malfunction
+If device_report_product_code = FNL then Malfunction
+If device_report_product_code = GCJ then Malfunction
+If manufacturer_name = ABBOTT-DIABETES-CARE-INC. then Malfunction
+If manufacturer_name = ABBOTT-DIABETES-CARE-INC.-USA then Malfunction
+If manufacturer_name = ANIMAS-CORPORATION then Malfunction
+If manufacturer_name = MEDTRONIC-PUERTO-RICO-OPERATIONS-CO. then Malfunction
+If manufacturer_name = ETHICON-ENDO-SURGERY-INC.(CINCINNATI) then Malfunction
+If manufacturer_name = ABBOTT-DIABETES-CARE-INC-USA then Malfunction
+If manufacturer_name = BAXTER-HEALTHCARE---MOUNTAIN-HOME then Malfunction
+If manufacturer_name = BAXTER-HEALTHCARE---LARGO then Malfunction
+If manufacturer_name = INTUITIVE-SURGICAL-INC. then Malfunction
+If device_report_product_code = JJE then Malfunction
+If device_report_product_code = LOX then Malfunction
+If device_report_product_code = MVK then Malfunction
+If manufacturer_name = INVACARE-TAYLOR-STREET then Malfunction
+If manufacturer_name = STRYKER-SPINE-BORDEAUX then Malfunction
+If manufacturer_name = ORTHO-CLINICAL-DIAGNOSTICS-INC. then Malfunction
+If manufacturer_name = ETHICON-ENDO-SURGERY-INC-(CINCINNATI) then Malfunction
+If manufacturer_name = OLYMPUS-MEDICAL-SYSTEMS-CORPORATION then Malfunction
+If manufacturer_name = SYNTHES-GMBH then Malfunction
+If manufacturer_name = ETHICON-ENDO-SURGERY-INC.-(CINCINNATI) then Malfunction
+If reporter_occupation_code = BIOMEDICAL-ENGINEER then Malfunction
+If reporter_occupation_code = RISK-MANAGER then Malfunction
+If device_report_product_code = HBB then Malfunction
+If device_report_product_code = BTT then Malfunction
+If device_report_product_code = LNX then Malfunction
+If manufacturer_name = CARDIAC-PACEMAKERS then Malfunction
+If manufacturer_name = BOSTON-SCIENTIFIC---SPENCER then Malfunction
+If manufacturer_name = BAXTER-HEALTHCARE---SINGAPORE then Malfunction
+If manufacturer_name = TERUMO-CARDIOVASCULAR-SYSTEMS-CORP. then Malfunction
+If manufacturer_name = MPROC-VILLALBA then Malfunction
+If manufacturer_name = BIOENTERICS-CORP then Malfunction
+If manufacturer_name = ALCON-PRECISION-DEVICE---SINKING-SPRING then Malfunction
+If manufacturer_name = STRYKER-OSTEOSYNTHESIS-SELZACH then Malfunction
+If manufacturer_name = IDEV-TECHNOLOGIES-INC. then Malfunction
+If manufacturer_name = BOSTON-SCIENTIFIC---MARLBOROUGH then Malfunction
+If manufacturer_name = STERIS-CORPORATION---MONTGOMERY then Malfunction
+If manufacturer_name = ALCON---IRVINE-TECHNOLOGY-CENTER then Malfunction
+If manufacturer_name = AMS-INNOVATION-CENTER then Malfunction
+If manufacturer_name = 8010379-DEPUY-INTERNATIONAL then Malfunction
+If manufacturer_name = CONMED-LINVATEC then Malfunction
+If manufacturer_name = EDWARDS-LIFESCIENCES-PR then Malfunction
+If manufacturer_name = MEDTRONIC-INC. then Malfunction
+If manufacturer_name = MEDTRONIC-MED-REL-MEDTRONIC-PUERTO-RICO then Malfunction
+If manufacturer_name = CARDIAC-PACEMAKERS-INC. then Malfunction
+If manufacturer_name = ETHICON-ENDO-SURGERY-LLC then Malfunction
+If manufacturer_name = STRYKER-MEDICAL then Malfunction
+If manufacturer_name = MEDTRONIC-SOFAMOR-DANEK-MANUFACTURING then Malfunction
+If manufacturer_name = UNKNOWN-MANUFACTURING-FACILITY then Malfunction
+If manufacturer_name = CARDIAC-PACEMAKERS-INC.-GUIDANT-PUERTO-RICO-B.V. then Malfunction
+If manufacturer_name = GENTEEL-HOMECARE-PRODUCTS then Malfunction
+If manufacturer_name = STRYKER-ENDOSCOPY-SAN-JOSE then Malfunction
+If manufacturer_name = SIEMENS-HEALTHCARE-DIAGNOSTICS then Malfunction
+If manufacturer_name = SETO-FACTORY-OF-ASAHI-INTECC-CO. then Malfunction
+If manufacturer_name = APPLIED-MEDICAL-RESOURCES then Malfunction
+If manufacturer_name = STAAR-SURGICAL-CO. then Malfunction
+If manufacturer_name = MEDTRONIC-MILACA-INC. then Malfunction
+If manufacturer_name = ABBOTT-VASCULAR-REDWOOD-CITY then Malfunction
+If manufacturer_name = NOVA-BIOMEDICAL-CORPORATION then Malfunction
+If manufacturer_name = BAYER-HEALTHCARE-LLC then Malfunction
+If manufacturer_name = ABBOTT-DIABETES-CARE-LIMITED-UK then Malfunction
+If manufacturer_name = ANGIOTECH-INTERVENTIONAL then Malfunction
+If manufacturer_name = ADVANCED-STERILIZATION-PRODUCTS then Malfunction
+If manufacturer_name = ZOLL-CIRCULATION-INC. then Malfunction
+If manufacturer_name = ABBOTT-DIAGNOSTICS-DIVISION/CELLDYN then Malfunction
+If manufacturer_name =  then Malfunction
+If manufacturer_name = MEDTRONIC-B.V. then Malfunction
+If manufacturer_name = OGDEN-MFG then Malfunction
+If manufacturer_name = INTERNATIONAL-TECHNIDYNE-CORP. then Malfunction
+If manufacturer_name = RESPIRONICS-INC. then Malfunction
+If manufacturer_name = PERCLOSE-INC then Malfunction
+If manufacturer_name = COVIDIEN-LP-(VALLEYLAB) then Malfunction
+If manufacturer_name = SIEMENS-HEALTHCARE-DIAGNOSTICS-INC. then Malfunction
+If manufacturer_name = OTISMED-CORPORATION then Malfunction
+If manufacturer_name = SYNTHES-(USA) then Malfunction
+If manufacturer_name = ZIMMER then Malfunction
+If manufacturer_name = CARDINAL-HEALTH-207-INC then Malfunction
+If manufacturer_name = PURITAN-BENNETT-CORP. then Malfunction
+If device_report_product_code = LFL then Malfunction
+If device_report_product_code = MMI then Malfunction
+If device_report_product_code = FMK then Malfunction
+If device_report_product_code = DYB then Malfunction
+If manufacturer_name = ROCHE-DIAGNOSTICS
+   and reporter_occupation_code = LAY-USER/PATIENT then Malfunction
+If manufacturer_name = ROCHE-DIAGNOSTICS
+   and reporter_occupation_code = NOT-APPLICABLE then Malfunction
+If manufacturer_name = LIFESCAN-INC.
+   and device_operator = HEALTH-PROFESSIONAL then Malfunction
+If manufacturer_name = LIFESCAN-INC.
+   and reporter_occupation_code = OTHER then Malfunction
+If manufacturer_name = ROCHE-DIAGNOSTICS
+   and reporter_occupation_code = PATIENT then Malfunction
+If manufacturer_name = CYBERONICS-INC.
+   and device_operator = HEALTH-PROFESSIONAL then Malfunction
+If manufacturer_name = ETHICON-ENDO-SURGERY-LLC.
+   and device_operator = HEALTH-PROFESSIONAL
+   and reporter_occupation_code = OTHER
+   and device_report_product_code = FZP
+   and expired = FALSE then Malfunction
+If manufacturer_name = AV-TEMECULA-CT
+   and device_report_product_code = NIQ then Malfunction
+If manufacturer_name = ROCHE-INSULIN-DELIVERY-SYSTEMS-INC.
+   and device_operator = LAY-USER/PATIENT
+   and reporter_occupation_code = UNKNOWN
+   and device_report_product_code = LZG
+   and expired = FALSE then Malfunction
+If manufacturer_name = LIFESCAN-INC.
+   and reporter_occupation_code = LAY-USER/PATIENT
+   and device_operator = LAY-USER/PATIENT
+   and device_report_product_code = NBW
+   and expired = FALSE then Malfunction
+If manufacturer_name = BOSTON-SCIENTIFIC
+   and reporter_occupation_code = UNKNOWN then Malfunction
+If manufacturer_name = CARDIAC-PACEMAKERS-INC
+   and device_operator = HEALTH-PROFESSIONAL then Malfunction
+If manufacturer_name = CARDIAC-PACEMAKERS-INC
+   and reporter_occupation_code = OTHER then Malfunction
+If reporter_occupation_code = LAY-USER/PATIENT
+   and expired = TRUE then Malfunction
+If manufacturer_name = BOSTON-SCIENTIFIC
+   and device_report_product_code = NIQ
+   and device_operator = HEALTH-PROFESSIONAL
+   and reporter_occupation_code = PHYSICIAN
+   and expired = FALSE then Malfunction
+If manufacturer_name = ANIMAS-CORP.
+   and reporter_occupation_code = UNKNOWN then Malfunction
+If manufacturer_name = DISETRONIC-MEDICAL-SYSTEMS-INC.
+   and device_report_product_code = LZG then Malfunction
+If manufacturer_name = BOSTON-SCIENTIFIC---MAPLE-GROVE
+   and device_operator = HEALTH-PROFESSIONAL
+   and reporter_occupation_code = PHYSICIAN
+   and device_report_product_code = MAF
+   and expired = FALSE then Malfunction
+If manufacturer_name = CYBERONICS-INC.
+   and reporter_occupation_code = PHYSICIAN then Malfunction
+If manufacturer_name = BECKMAN-COULTER-INC.
+   and device_operator = HEALTH-PROFESSIONAL
+   and reporter_occupation_code = OTHER
+   and device_report_product_code = GKZ
+   and expired = FALSE then Malfunction
+If manufacturer_name = MEDTRONIC-PUERTO-RICO-OPERATIONS-MED-REL
+   and device_operator = LAY-USER/PATIENT
+   and reporter_occupation_code = NOT-APPLICABLE
+   and device_report_product_code = LZG
+   and expired = FALSE then Malfunction
+If manufacturer_name = COCHLEAR-LTD.
+   and reporter_occupation_code = OTHER then Malfunction
+If manufacturer_name = ABBOTT-VASCULAR-CARDIAC-THERAPIES
+   and reporter_occupation_code = OTHER then Malfunction
+If manufacturer_name = MEDTRONIC-IRELAND
+   and device_operator = 0 then Malfunction
+If device_report_product_code = FMF
+   and manufacturer_name = MEDTRONIC-MINIMED then Malfunction
+If device_report_product_code = GAM
+   and reporter_occupation_code = NURSE then Malfunction
+If manufacturer_name = CARDIAC-PACEMAKERS-INC
+   and device_report_product_code = DXY
+   and reporter_occupation_code = PHYSICIAN then Malfunction
+If manufacturer_name = CARDIAC-PACEMAKERS-INC
+   and device_report_product_code = DXY
+   and device_operator = UNKNOWN
+   and reporter_occupation_code = LAY-USER/PATIENT
+   and expired = FALSE then Malfunction
+If reporter_occupation_code = INVALID-DATA
+   and device_report_product_code = DTB
+   and manufacturer_name = MEDTRONIC-PUERTO-RICO-INC.
+   and device_operator = LAY-USER/PATIENT
+   and expired = FALSE then Malfunction
+If manufacturer_name = ETHICON-INC.
+   and reporter_occupation_code = PHYSICIAN then Malfunction
+If manufacturer_name = CARDIAC-PACEMAKERS-INC
+   and expired = TRUE
+   and device_operator = UNKNOWN
+   and reporter_occupation_code = PHYSICIAN
+   and device_report_product_code = LWS then Malfunction
+If manufacturer_name = MEDTRONIC-PUERTO-RICO-INC.
+   and device_operator = HEALTH-PROFESSIONAL then Malfunction
+If manufacturer_name = CARL-ZEISS-SURGICAL-GMBH then Other
+If manufacturer_name = IMPACT-INSTRUMENTATION-INC. then Other
+If manufacturer_name = NEUROLOGICAL-DIV.-MEDTRONIC-INC then Other
+If manufacturer_name = POREX-SURGICAL then Other
+If manufacturer_name = EXACTECH-INC. then Other
+If manufacturer_name = VOLCANO-CORPORATION then Other
+If manufacturer_name = BECTON-DICKINSON then Other
+If manufacturer_name = MAQUET-GMBH-AND-CO.-KG then Other
+If device_report_product_code = GKZ
+   and manufacturer_name = BECKMAN-COULTER-INC.
+   and device_operator = HEALTH-PROFESSIONAL
+   and reporter_occupation_code = OTHER
+   and expired = FALSE then Other
+If manufacturer_name = POPULAR-PLASTICS then No answer provided
+If manufacturer_name = COOK-ENDOSCOPY then No answer provided
+If manufacturer_name = GLOBAL-PHARMACOVIGILANCE-AND-EPIDEMIOLOGY/SANOFI-AVENTIS then No answer provided
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         178               49.3075 %
+Incorrectly Classified Instances        64               17.7285 %
+Kappa statistic                          0.4741
+Mean absolute error                      0.1058
+Root mean squared error                  0.3252
+Relative absolute error                 77.7296 %
+Root relative squared error            126.2286 %
+UnClassified Instances                 119               32.964  %
+Total Number of Instances              361     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0.013      0         0         0          0.496    Death
+                 0.744     0.237      0.634     0.744     0.684      0.678    Injury
+                 0.765     0.247      0.832     0.765     0.797      0.679    Malfunction
+                 0         0.004      0         0         0          0.499    Other
+                 0         0          0         0         0          0.5      No answer provided
+Weighted Avg.    0.736     0.237      0.738     0.736     0.734      0.673
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+   0   3   1   0   0 |   a = Death
+   2  64  20   0   0 |   b = Injury
+   1  33 114   1   0 |   c = Malfunction
+   0   1   1   0   0 |   d = Other
+   0   0   1   0   0 |   e = No answer provided
+

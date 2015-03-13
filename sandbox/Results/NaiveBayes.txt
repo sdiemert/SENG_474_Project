@@ -1,0 +1,417 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     liability
+Instances:    361
+Attributes:   6
+              manufacturer_name
+              device_operator
+              reporter_occupation_code
+              device_report_product_code
+              expired
+              class
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                                                          Class
+Attribute                                                                 Death             Injury        Malfunction              Other No answer provided
+                                                                         (0.02)             (0.34)              (0.6)             (0.03)             (0.01)
+============================================================================================================================================================
+manufacturer_name
+  MEDTRONIC-PUERTO-RICO-OPERATIONS-CO.                                       1.0                1.0                4.0                1.0                1.0
+  LIFESCAN-INC.                                                              1.0                4.0                8.0                1.0                1.0
+  ABBOTT-DIABETES-CARE-INC.                                                  1.0                1.0                5.0                1.0                1.0
+  HILL-ROM-RITTER                                                            1.0                1.0                4.0                1.0                1.0
+  ANIMAS-CORP.                                                               1.0                2.0                2.0                1.0                1.0
+  BIOTRONIK-SE-&-CO.-KG                                                      2.0                1.0                1.0                1.0                1.0
+  ELI-LILLY-AND-CO.                                                          1.0                2.0                1.0                1.0                1.0
+  DEPUY-INTERNATIONAL                                                        1.0                5.0                1.0                1.0                1.0
+  SORIN-CRM-S.R.L.                                                           1.0                2.0                1.0                1.0                1.0
+  ETHICON-ENDO-SURGERY-INC.(CINCINNATI)                                      1.0                1.0                5.0                1.0                1.0
+  CARDIAC-PACEMAKERS                                                         1.0                1.0                2.0                1.0                1.0
+  BOSTON-SCIENTIFIC---SPENCER                                                1.0                1.0                2.0                1.0                1.0
+  BAXTER-HEALTHCARE---SINGAPORE                                              1.0                1.0                6.0                1.0                1.0
+  TERUMO-CARDIOVASCULAR-SYSTEMS-CORP.                                        1.0                1.0                3.0                1.0                1.0
+  CARL-ZEISS-SURGICAL-GMBH                                                   1.0                1.0                1.0                2.0                1.0
+  HILL-ROM-INC                                                               1.0                1.0                2.0                1.0                1.0
+  IMPACT-INSTRUMENTATION-INC.                                                1.0                1.0                1.0                2.0                1.0
+  ZOLL-MEDICAL-CORPORATION                                                   1.0                1.0                8.0                1.0                1.0
+  MPROC-VILLALBA                                                             1.0                1.0                2.0                1.0                1.0
+  BIOENTERICS-CORP                                                           1.0                1.0                2.0                1.0                1.0
+  INVACARE-TAYLOR-STREET                                                     1.0                1.0                3.0                1.0                1.0
+  MEDTRONIC-PUERTO-RICO-INC.                                                 2.0               13.0                4.0                1.0                1.0
+  MEDTRONIC-MED-REL-INC.                                                     2.0               11.0                1.0                1.0                1.0
+  COOK-INC.                                                                  1.0                2.0                1.0                1.0                1.0
+  BIOHORIZONS-IMPLANT-SYSTEMS-INC.                                           1.0                2.0                1.0                1.0                1.0
+  GUIDANT-CRM-CLONMEL-IRELAND                                                1.0                3.0                1.0                1.0                1.0
+  ALCON-PRECISION-DEVICE---SINKING-SPRING                                    1.0                1.0                2.0                1.0                1.0
+  STRYKER-OSTEOSYNTHESIS-SELZACH                                             1.0                1.0                2.0                1.0                1.0
+  ABBOTT-DIABETES-CARE-INC-USA                                               1.0                1.0                4.0                1.0                1.0
+  DISETRONIC-MEDICAL-SYSTEMS-INC.                                            1.0                2.0                2.0                1.0                1.0
+  BOSTON-SCIENTIFIC                                                          1.0                3.0                6.0                1.0                1.0
+  IDEV-TECHNOLOGIES-INC.                                                     1.0                1.0                2.0                1.0                1.0
+  ABBOTT-DIABETES-CARE-INC.-USA                                              1.0                1.0                5.0                1.0                1.0
+  ROCHE-DIAGNOSTICS                                                          1.0                2.0               10.0                1.0                1.0
+  BOSTON-SCIENTIFIC---MARLBOROUGH                                            1.0                1.0                2.0                1.0                1.0
+  BAXTER-HEALTHCARE---MOUNTAIN-HOME                                          1.0                1.0                4.0                1.0                1.0
+  ANIMAS-CORPORATION                                                         1.0                1.0                5.0                1.0                1.0
+  BOSTON-SCIENTIFIC---MAPLE-GROVE                                            1.0                2.0                2.0                1.0                1.0
+  PHILIPS-MEDICAL-SYSTEMS                                                    1.0                1.0                6.0                1.0                1.0
+  STERIS-CORPORATION---MONTGOMERY                                            1.0                1.0                2.0                1.0                1.0
+  COOK-BIOTECH-INC.                                                          1.0                2.0                1.0                1.0                1.0
+  CPI---DEL-CARIBE                                                           1.0                7.0                1.0                1.0                1.0
+  ST-JUDE-MEDICAL-CARDIAC-RHYTHM-MANAGEMENT-DIVISION                         1.0                6.0                1.0                1.0                1.0
+  MEDTRONIC-NEUROMODULATION                                                  1.0                3.0                1.0                1.0                1.0
+  GE-OEC-MEDICAL-SYSTEMS-(SLC)                                               1.0                1.0                4.0                1.0                1.0
+  IMMUCOR                                                                    1.0                1.0                2.0                1.0                1.0
+  STRYKER-SPINE-BORDEAUX                                                     1.0                1.0                3.0                1.0                1.0
+  ETHICON-INC.                                                               1.0                4.0                3.0                1.0                1.0
+  CYBERONICS-INC.                                                            1.0                2.0                5.0                1.0                1.0
+  CARDIAC-PACEMAKERS-INC                                                     1.0                7.0                8.0                1.0                1.0
+  W.L.-GORE-&-ASSOCIATES                                                     1.0                2.0                1.0                1.0                1.0
+  ETHICON-ENDO-SURGERY-LLC.                                                  1.0                2.0                4.0                1.0                1.0
+  BECKMAN-COULTER-INC.                                                       1.0                1.0                4.0                2.0                1.0
+  MEDTRONIC-MINIMED                                                          1.0                4.0                2.0                1.0                1.0
+  WELCH-ALLYN-PROTOCOL-INC.                                                  1.0                1.0                5.0                1.0                1.0
+  HOSPIRA-INC.                                                               1.0                1.0                2.0                1.0                1.0
+  CODMAN-AND-SHURTLEFF-INC                                                   1.0                2.0                1.0                1.0                1.0
+  ROCHE-DIAGNOSTICS-CORP.                                                    1.0                2.0                1.0                1.0                1.0
+  LIFESCAN-EUROPE-A-DIVISION-OF-CILAG-GMBH-INTL                              1.0                1.0                6.0                1.0                1.0
+  MEDTRONIC-PUERTO-RICO-OPERATIONS-MED-REL                                   1.0                2.0                2.0                1.0                1.0
+  PHYSIO-CONTROL-INC.                                                        1.0                1.0                2.0                1.0                1.0
+  ALCON---IRVINE-TECHNOLOGY-CENTER                                           1.0                1.0                2.0                1.0                1.0
+  NXSTAGE-MEDICAL-INC.                                                       1.0                2.0                1.0                1.0                1.0
+  AMS-INNOVATION-CENTER                                                      1.0                1.0                2.0                1.0                1.0
+  VASCULAR-SOLUTIONS-INC.                                                    1.0                2.0                1.0                1.0                1.0
+  ORTHO-CLINICAL-DIAGNOSTICS-INC.                                            1.0                1.0                4.0                1.0                1.0
+  USSC-PUERTO-RICO                                                           1.0                1.0                3.0                1.0                1.0
+  8010379-DEPUY-INTERNATIONAL                                                1.0                1.0                2.0                1.0                1.0
+  IMMUCOR-INC.                                                               1.0                1.0                2.0                1.0                1.0
+  GE-OEC-MEDICAL-SYSTEMS-INC.                                                1.0                1.0                4.0                1.0                1.0
+  ETHICON-ENDO-SURGERY-INC-(CINCINNATI)                                      1.0                1.0                3.0                1.0                1.0
+  CONMED-LINVATEC                                                            1.0                1.0                2.0                1.0                1.0
+  EV3-NEUROVASCULAR                                                          1.0                2.0                1.0                1.0                1.0
+  EDWARDS-LIFESCIENCES-PR                                                    1.0                1.0                2.0                1.0                1.0
+  EDWARDS-LIFESCIENCES                                                       1.0                2.0                1.0                1.0                1.0
+  MEDTRONIC-INC.                                                             1.0                1.0                2.0                1.0                1.0
+  BAXTER-HEALTHCARE---LARGO                                                  1.0                1.0                5.0                1.0                1.0
+  ST.-JUDE-MEDICAL                                                           1.0                2.0                2.0                1.0                1.0
+  GE-OEC-MEDICAL-SYSTEMS-GMBH                                                1.0                1.0                2.0                1.0                1.0
+  BAXTER-HEALTHCARE---CLEVELAND                                              1.0                2.0                1.0                1.0                1.0
+  CORDIS-DE-MEXICO                                                           2.0                4.0                1.0                1.0                1.0
+  ST.-JUDE-MEDICAL---NEUROMODULATION                                         1.0                2.0                1.0                1.0                1.0
+  MEDTRONIC-MED-REL-MEDTRONIC-PUERTO-RICO                                    1.0                1.0                2.0                1.0                1.0
+  OLYMPUS-MEDICAL-SYSTEMS-CORPORATION                                        1.0                1.0                3.0                1.0                1.0
+  CARDIAC-PACEMAKERS-INC.                                                    1.0                1.0                2.0                1.0                1.0
+  AV-TEMECULA-CT                                                             1.0                2.0                3.0                1.0                1.0
+  COCHLEAR-LTD.                                                              1.0                2.0                2.0                1.0                1.0
+  ABBOTT-VASCULAR-CARDIAC-THERAPIES                                          1.0                2.0                3.0                1.0                1.0
+  SORIN-CRM                                                                  1.0                3.0                1.0                1.0                1.0
+  BAXTER-HEALTHCARE-CORP                                                     1.0                1.0                2.0                1.0                1.0
+  NELLCOR-PURITAN-BENNETT                                                    1.0                1.0                2.0                1.0                1.0
+  ATHLONE                                                                    1.0                2.0                1.0                1.0                1.0
+  MEDTRONIC-S.A.                                                             1.0                3.0                1.0                1.0                1.0
+  THE-ANSPACH-EFFORT-INC.                                                    1.0                1.0                2.0                1.0                1.0
+  FISHER-&-PAYKEL-HEALTHCARE-LTD.                                            1.0                1.0                2.0                1.0                1.0
+  ETHICON-ENDO-SURGERY-LLC                                                   1.0                1.0                2.0                1.0                1.0
+  SYNTHES-GMBH                                                               1.0                1.0                3.0                1.0                1.0
+  POPULAR-PLASTICS                                                           1.0                1.0                1.0                1.0                2.0
+  ETHICON-ENDO-SURGERY-INC.-(CINCINNATI)                                     1.0                1.0                3.0                1.0                1.0
+  STRYKER-MEDICAL                                                            1.0                1.0                2.0                1.0                1.0
+  DEPUY-ORTHOPAEDICS-INC.                                                    1.0                5.0                1.0                1.0                1.0
+  MEDTRONIC-INC.-NEUROLOGICAL-DIVISION                                       1.0                2.0                1.0                1.0                1.0
+  HILL-ROM-INC.                                                              1.0                1.0                2.0                1.0                1.0
+  MEDTRONIC-SOFAMOR-DANEK-MANUFACTURING                                      1.0                1.0                2.0                1.0                1.0
+  DEPUY-RAYNHAM-A-DIVISION-OF-DEPUY-ORTHOPAEDICS-INC.                        1.0                2.0                1.0                1.0                1.0
+  SOLTA-MEDICAL                                                              1.0                2.0                1.0                1.0                1.0
+  ROCHE-INSULIN-DELIVERY-SYSTEMS-INC.                                        1.0                2.0                3.0                1.0                1.0
+  MEDTRONIC-IRELAND                                                          2.0                1.0                2.0                1.0                1.0
+  UNKNOWN-MANUFACTURING-FACILITY                                             1.0                1.0                2.0                1.0                1.0
+  NEUROLOGICAL-DIV.-MEDTRONIC-INC                                            1.0                1.0                1.0                2.0                1.0
+  CARDIAC-PACEMAKERS-INC.-GUIDANT-PUERTO-RICO-B.V.                           1.0                1.0                2.0                1.0                1.0
+  FRESENIUS-MEDICAL-CARE                                                     1.0                2.0                1.0                1.0                1.0
+  ETHICON-ENDO-SURGERY                                                       1.0                1.0                2.0                1.0                1.0
+  ABBOTT-VASCULAR---CARDIAC-THERAPIES                                        1.0                2.0                1.0                1.0                1.0
+  THE-ANSPACH-EFFORT                                                         1.0                1.0                2.0                1.0                1.0
+  INTUITIVE-SURGICAL-INC.                                                    1.0                1.0                4.0                1.0                1.0
+  MEDTRONIC-INC.-CARDIAC-RHYTHM-MANAGEMENT-DIVISION                          1.0                2.0                1.0                1.0                1.0
+  POREX-SURGICAL                                                             1.0                1.0                1.0                2.0                1.0
+  GENTEEL-HOMECARE-PRODUCTS                                                  1.0                1.0                2.0                1.0                1.0
+  COOPERVISION-MANUFACTURING-LTD.                                            1.0                2.0                1.0                1.0                1.0
+  STRYKER-ENDOSCOPY-SAN-JOSE                                                 1.0                1.0                2.0                1.0                1.0
+  SIEMENS-HEALTHCARE-DIAGNOSTICS                                             1.0                1.0                2.0                1.0                1.0
+  MEDTRONIC                                                                  1.0                2.0                1.0                1.0                1.0
+  SETO-FACTORY-OF-ASAHI-INTECC-CO.                                           1.0                1.0                2.0                1.0                1.0
+  APPLIED-MEDICAL-RESOURCES                                                  1.0                1.0                2.0                1.0                1.0
+  ZIMMER-GMBH                                                                1.0                2.0                1.0                1.0                1.0
+  MENTOR                                                                     1.0                2.0                1.0                1.0                1.0
+  SMITHS-MEDICAL-MD                                                          1.0                1.0                2.0                1.0                1.0
+  MDT-PUERTO-RICO-OPERATIONS-CO                                              1.0                2.0                1.0                1.0                1.0
+  HAMILTON-BONADUZ-AG                                                        1.0                1.0                2.0                1.0                1.0
+  ALCON-LABORATORIES-INC.                                                    1.0                1.0                2.0                1.0                1.0
+  STAAR-SURGICAL-CO.                                                         1.0                1.0                2.0                1.0                1.0
+  DAVOL-INC.-SUB.-C.R.-BARD-INC.                                             1.0                3.0                1.0                1.0                1.0
+  ZOLL-LIFECOR-CORPORATION                                                   1.0                1.0                3.0                1.0                1.0
+  BAXTER-HEALTHCARE                                                          1.0                3.0                1.0                1.0                1.0
+  EXACTECH-INC.                                                              1.0                1.0                1.0                2.0                1.0
+  MEDTRONIC-MILACA-INC.                                                      1.0                1.0                2.0                1.0                1.0
+  VOLCANO-CORPORATION                                                        1.0                1.0                1.0                2.0                1.0
+  ABBOTT-VASCULAR-REDWOOD-CITY                                               1.0                1.0                2.0                1.0                1.0
+  BAUSCH-&-LOMB-INC.                                                         1.0                2.0                1.0                1.0                1.0
+  BOSTON-SCIENTIFIC-CORPORATION                                              1.0                2.0                1.0                1.0                1.0
+  ZOLL-LIFECOR-CORP                                                          1.0                1.0                2.0                1.0                1.0
+  NOVA-BIOMEDICAL-CORPORATION                                                1.0                1.0                2.0                1.0                1.0
+  BAXTER-HEALTHCARE-CORP.                                                    1.0                1.0                3.0                1.0                1.0
+  BAYER-HEALTHCARE-LLC                                                       1.0                1.0                2.0                1.0                1.0
+  ABBOTT-DIABETES-CARE-LIMITED-UK                                            1.0                1.0                2.0                1.0                1.0
+  GE-OEC-MEDICAL-SYSTEMS-INC                                                 1.0                1.0                2.0                1.0                1.0
+  ABBOTT-MANUFACTURING-INC.                                                  1.0                1.0                2.0                1.0                1.0
+  TRINITY-STERILE-INC.                                                       1.0                2.0                1.0                1.0                1.0
+  BOSTON-SCIENTIFIC---MIAMI                                                  1.0                2.0                1.0                1.0                1.0
+  DEPUY-WARSAW                                                               1.0                3.0                1.0                1.0                1.0
+  ANGIOTECH-INTERVENTIONAL                                                   1.0                1.0                2.0                1.0                1.0
+  DEPUY-MITEK                                                                1.0                2.0                1.0                1.0                1.0
+  BECTON-DICKINSON                                                           1.0                1.0                1.0                2.0                1.0
+  COOK-ENDOSCOPY                                                             1.0                1.0                1.0                1.0                2.0
+  ADVANCED-STERILIZATION-PRODUCTS                                            1.0                1.0                2.0                1.0                1.0
+  ZOLL-CIRCULATION-INC.                                                      1.0                1.0                2.0                1.0                1.0
+  ABBOTT-DIAGNOSTICS-DIVISION/CELLDYN                                        1.0                1.0                2.0                1.0                1.0
+                                                                             1.0                1.0                2.0                1.0                1.0
+  MEDTRONIC-B.V.                                                             1.0                1.0                2.0                1.0                1.0
+  MAQUET-GMBH-AND-CO.-KG                                                     1.0                1.0                1.0                2.0                1.0
+  HOSPIRA-DE-COSTA-RICA-LTD                                                  1.0                1.0                2.0                1.0                1.0
+  MDT-PUERTO-RICO-OPERATIONS-CO.-JUNCOS                                      1.0                2.0                1.0                1.0                1.0
+  GLOBAL-PHARMACOVIGILANCE-AND-EPIDEMIOLOGY/SANOFI-AVENTIS                   1.0                1.0                1.0                1.0                2.0
+  STRYKER                                                                    1.0                1.0                2.0                1.0                1.0
+  OGDEN-MFG                                                                  1.0                1.0                2.0                1.0                1.0
+  INTERNATIONAL-TECHNIDYNE-CORP.                                             1.0                1.0                2.0                1.0                1.0
+  ST-JUDE-MEDICAL---NEUROMODULATION-DIV                                      1.0                2.0                1.0                1.0                1.0
+  ALCON---FORT-WORTH/ALCON-LABORATORIES-INC.                                 1.0                2.0                1.0                1.0                1.0
+  RESPIRONICS-INC.                                                           1.0                1.0                2.0                1.0                1.0
+  PERCLOSE-INC                                                               1.0                1.0                2.0                1.0                1.0
+  COVIDIEN-LP-(VALLEYLAB)                                                    1.0                1.0                2.0                1.0                1.0
+  SIEMENS-HEALTHCARE-DIAGNOSTICS-INC.                                        1.0                1.0                2.0                1.0                1.0
+  CORNEAL                                                                    1.0                2.0                1.0                1.0                1.0
+  OTISMED-CORPORATION                                                        1.0                1.0                2.0                1.0                1.0
+  FISHER-&-PAYKEL-HEALTHCARE-LTD                                             1.0                1.0                2.0                1.0                1.0
+  SYNTHES-(USA)                                                              1.0                1.0                2.0                1.0                1.0
+  ZIMMER                                                                     1.0                1.0                2.0                1.0                1.0
+  DEPUY-INTL.-LTD.-?-REG.-#-8010379                                          1.0                2.0                1.0                1.0                1.0
+  CARDINAL-HEALTH-207-INC                                                    1.0                1.0                2.0                1.0                1.0
+  1818910-DEPUY-ORTHOPAEDICS-INC.                                            1.0                2.0                1.0                1.0                1.0
+  PURITAN-BENNETT-CORP.                                                      1.0                1.0                2.0                1.0                1.0
+  DEPUY-RAYNHAM                                                              1.0                2.0                1.0                1.0                1.0
+  [total]                                                                  188.0              308.0              402.0              192.0              186.0
+
+device_operator
+  LAY-USER/PATIENT                                                           3.0               53.0               62.0                2.0                2.0
+  0                                                                          1.0                3.0               10.0                1.0                2.0
+  HEALTH-PROFESSIONAL                                                        4.0               56.0              114.0                8.0                2.0
+  OTHER                                                                      1.0                4.0               17.0                1.0                1.0
+  PHYSICIAN                                                                  1.0                4.0                5.0                1.0                1.0
+  OTHER-HEALTH-CARE-PROFESSIONAL                                             1.0                3.0                1.0                1.0                1.0
+  MEDICAL-TECHNOLOGIST                                                       1.0                1.0                3.0                1.0                1.0
+  PATIENT                                                                    1.0                1.0                2.0                1.0                1.0
+  UNKNOWN                                                                    1.0                7.0                9.0                1.0                1.0
+  NOT-APPLICABLE                                                             1.0                1.0                2.0                1.0                1.0
+  INVALID-DATA                                                               1.0                2.0                3.0                1.0                1.0
+  MEDICAL-ASSISTANT                                                          1.0                2.0                1.0                1.0                1.0
+  SERVICE-AND-TESTING-PERSONNEL                                              1.0                1.0                3.0                1.0                1.0
+                                                                             1.0                1.0                1.0                2.0                1.0
+  [total]                                                                   19.0              139.0              233.0               23.0               17.0
+
+reporter_occupation_code
+  OTHER                                                                      3.0               33.0               85.0                4.0                1.0
+  LAY-USER/PATIENT                                                           1.0                6.0               12.0                1.0                1.0
+  UNKNOWN                                                                    1.0                5.0               16.0                2.0                1.0
+  NOT-APPLICABLE                                                             2.0                8.0               20.0                1.0                1.0
+  ATTORNEY                                                                   2.0                4.0                1.0                1.0                1.0
+  PHYSICIAN                                                                  2.0               49.0               31.0                4.0                1.0
+  HEALTH-PROFESSIONAL                                                        1.0                5.0                7.0                1.0                1.0
+  NURSE                                                                      1.0                3.0                6.0                1.0                2.0
+  MEDICAL-EQUIPMENT-COMPANY-TECHNICIAN/REPRESENTATIVE                        1.0                7.0                4.0                1.0                2.0
+  NO-INFORMATION                                                             1.0                1.0               10.0                1.0                2.0
+  DENTIST                                                                    1.0                2.0                1.0                1.0                1.0
+  MEDICAL-TECHNOLOGIST                                                       1.0                1.0                6.0                1.0                1.0
+  PHARMACIST                                                                 1.0                1.0                3.0                1.0                1.0
+  INVALID-DATA                                                               1.0                6.0                3.0                2.0                1.0
+  OTHER-HEALTH-CARE-PROFESSIONAL                                             1.0                4.0               12.0                1.0                1.0
+  PATIENT                                                                    1.0                4.0                9.0                1.0                1.0
+                                                                             1.0                1.0                2.0                2.0                1.0
+  MEDICAL-ASSISTANT                                                          1.0                2.0                1.0                1.0                1.0
+  AUDIOLOGIST                                                                1.0                2.0                1.0                1.0                1.0
+  BIOMEDICAL-ENGINEER                                                        1.0                1.0                6.0                1.0                1.0
+  SERVICE-AND-TESTING-PERSONNEL                                              1.0                1.0                2.0                1.0                1.0
+  RISK-MANAGER                                                               1.0                1.0                3.0                1.0                1.0
+  [total]                                                                   27.0              147.0              241.0               31.0               25.0
+
+device_report_product_code
+  OYC                                                                        1.0                1.0                2.0                1.0                1.0
+  NBW                                                                        1.0                4.0               17.0                2.0                1.0
+  LFR                                                                        1.0                2.0               16.0                1.0                1.0
+  FNL                                                                        1.0                1.0                6.0                1.0                1.0
+  LZG                                                                        1.0                6.0               10.0                1.0                1.0
+  MRM                                                                        2.0                2.0                1.0                1.0                1.0
+  FMF                                                                        1.0                2.0                2.0                1.0                1.0
+  KWA                                                                        1.0                6.0                1.0                1.0                1.0
+  NVZ                                                                        2.0                4.0                2.0                1.0                1.0
+  GEI                                                                        1.0                2.0                7.0                1.0                1.0
+  NIK                                                                        1.0                4.0                5.0                1.0                1.0
+  FFL                                                                        1.0                1.0                2.0                1.0                1.0
+  FPA                                                                        1.0                2.0                2.0                1.0                1.0
+  DWA                                                                        1.0                1.0                2.0                1.0                1.0
+  MHY                                                                        1.0                1.0                2.0                1.0                1.0
+  EPT                                                                        1.0                1.0                1.0                2.0                1.0
+  CBK                                                                        1.0                1.0                3.0                2.0                1.0
+  MKJ                                                                        1.0                1.0               17.0                1.0                1.0
+  KNS                                                                        1.0                1.0                3.0                1.0                1.0
+  ?                                                                          1.0                1.0                2.0                1.0                1.0
+  ITI                                                                        1.0                1.0                3.0                1.0                1.0
+  LWS                                                                        2.0               21.0                7.0                1.0                1.0
+  MIH                                                                        1.0                2.0                1.0                1.0                1.0
+  DZE                                                                        1.0                2.0                1.0                1.0                1.0
+  HNN                                                                        1.0                1.0                2.0                1.0                1.0
+  LXH                                                                        1.0                1.0                3.0                1.0                1.0
+  MAF                                                                        1.0                4.0                3.0                1.0                1.0
+  FGE                                                                        1.0                1.0                2.0                1.0                1.0
+  CEM                                                                        1.0                1.0                2.0                1.0                1.0
+  FKX                                                                        1.0                2.0                8.0                1.0                1.0
+  FTD                                                                        1.0                1.0                2.0                1.0                1.0
+  DTB                                                                        1.0                8.0                3.0                1.0                1.0
+  FTL                                                                        1.0                7.0                2.0                1.0                1.0
+  NVY                                                                        1.0                3.0                1.0                1.0                1.0
+  LKK                                                                        1.0                4.0                1.0                2.0                1.0
+  JAA                                                                        1.0                1.0                9.0                1.0                1.0
+  KSZ                                                                        1.0                1.0                4.0                1.0                1.0
+  KWQ                                                                        1.0                1.0                2.0                1.0                1.0
+  GAM                                                                        1.0                2.0                2.0                1.0                1.0
+  LYJ                                                                        1.0                2.0                3.0                1.0                1.0
+  DXY                                                                        1.0                8.0                3.0                1.0                1.0
+  MLV                                                                        1.0                2.0                1.0                1.0                1.0
+  FZP                                                                        1.0                2.0                4.0                1.0                1.0
+  GDW                                                                        1.0                1.0                3.0                1.0                1.0
+  GKZ                                                                        1.0                1.0                3.0                2.0                1.0
+  NIQ                                                                        3.0                6.0                7.0                1.0                1.0
+  FRN                                                                        1.0                1.0               12.0                1.0                1.0
+  HCG                                                                        1.0                2.0                1.0                1.0                1.0
+  CFR                                                                        1.0                2.0                2.0                1.0                1.0
+  HQC                                                                        1.0                1.0                2.0                1.0                1.0
+  LFL                                                                        1.0                1.0                4.0                1.0                1.0
+  KDI                                                                        1.0                4.0                2.0                1.0                1.0
+  GEX                                                                        1.0                1.0                2.0                1.0                1.0
+  MHW                                                                        1.0                2.0                1.0                1.0                1.0
+  JJE                                                                        1.0                1.0                5.0                1.0                1.0
+  GCJ                                                                        1.0                1.0                6.0                1.0                1.0
+  LPH                                                                        1.0                2.0                2.0                1.0                1.0
+  KNW                                                                        1.0                1.0                2.0                1.0                1.0
+  GET                                                                        1.0                1.0                2.0                1.0                1.0
+  MFE                                                                        1.0                2.0                1.0                1.0                1.0
+  JTC                                                                        1.0                1.0                3.0                1.0                1.0
+  DYG                                                                        1.0                1.0                2.0                1.0                1.0
+  KRH                                                                        1.0                2.0                1.0                1.0                1.0
+  MGB                                                                        1.0                3.0                3.0                1.0                1.0
+  LGW                                                                        1.0                4.0                2.0                1.0                1.0
+  FDF                                                                        1.0                1.0                2.0                1.0                1.0
+  MDS                                                                        1.0                2.0                2.0                1.0                1.0
+  MCM                                                                        1.0                2.0                2.0                1.0                1.0
+  DQA                                                                        1.0                1.0                2.0                1.0                1.0
+  BSR                                                                        1.0                2.0                1.0                1.0                1.0
+  HBB                                                                        1.0                1.0                3.0                1.0                1.0
+  GCT                                                                        1.0                1.0                2.0                1.0                1.0
+  BTT                                                                        1.0                1.0                3.0                1.0                1.0
+  HTW                                                                        1.0                1.0                2.0                1.0                1.0
+  INN                                                                        1.0                1.0                1.0                1.0                2.0
+  GDO                                                                        1.0                1.0                2.0                1.0                1.0
+  INK                                                                        1.0                1.0                2.0                1.0                1.0
+  KWP                                                                        1.0                1.0                2.0                1.0                1.0
+  NJL                                                                        1.0                2.0                1.0                1.0                1.0
+  NKE                                                                        1.0                2.0                1.0                1.0                1.0
+  MMI                                                                        1.0                1.0                2.0                1.0                1.0
+  LNX                                                                        1.0                1.0                3.0                1.0                1.0
+  LOX                                                                        1.0                1.0                4.0                1.0                1.0
+  JOF                                                                        1.0                1.0                1.0                2.0                1.0
+  JDI                                                                        1.0                3.0                1.0                1.0                1.0
+  HWE                                                                        1.0                1.0                2.0                1.0                1.0
+  ITJ                                                                        1.0                1.0                2.0                1.0                1.0
+  LPL                                                                        1.0                2.0                1.0                1.0                1.0
+  FCW                                                                        1.0                1.0                2.0                1.0                1.0
+  JLW                                                                        1.0                1.0                2.0                1.0                1.0
+  FMK                                                                        1.0                1.0                2.0                1.0                1.0
+  DQX                                                                        1.0                2.0                2.0                1.0                1.0
+  KNY                                                                        1.0                1.0                2.0                1.0                1.0
+  HRS                                                                        1.0                2.0                1.0                1.0                1.0
+  HQE                                                                        1.0                1.0                2.0                1.0                1.0
+  HQL                                                                        1.0                1.0                2.0                1.0                1.0
+  MVK                                                                        1.0                1.0                4.0                1.0                1.0
+  JWH                                                                        1.0                3.0                1.0                2.0                1.0
+  DTE                                                                        1.0                1.0                2.0                1.0                1.0
+  DQO                                                                        1.0                1.0                1.0                2.0                1.0
+  LYL                                                                        1.0                2.0                1.0                1.0                1.0
+  MDM                                                                        1.0                2.0                1.0                1.0                1.0
+  KWB                                                                        1.0                3.0                1.0                1.0                1.0
+  EZW                                                                        1.0                2.0                2.0                1.0                1.0
+  FOZ                                                                        1.0                2.0                1.0                1.0                1.0
+  MSD                                                                        1.0                1.0                2.0                1.0                1.0
+  MBI                                                                        1.0                2.0                1.0                1.0                1.0
+  MND                                                                        1.0                1.0                1.0                1.0                2.0
+  MLR                                                                        1.0                1.0                2.0                1.0                1.0
+  DRM                                                                        1.0                1.0                2.0                1.0                1.0
+  OJX                                                                        1.0                2.0                1.0                1.0                1.0
+  NVN                                                                        1.0                4.0                1.0                1.0                1.0
+  FQO                                                                        1.0                1.0                1.0                2.0                1.0
+  LMH                                                                        1.0                2.0                1.0                1.0                2.0
+  KDJ                                                                        1.0                2.0                1.0                1.0                1.0
+  GKP                                                                        1.0                1.0                2.0                1.0                1.0
+  DYB                                                                        1.0                1.0                2.0                1.0                1.0
+  LPN                                                                        1.0                2.0                1.0                1.0                1.0
+  CHP                                                                        1.0                1.0                2.0                1.0                1.0
+  HWT                                                                        1.0                1.0                2.0                1.0                1.0
+  NQW                                                                        1.0                1.0                2.0                1.0                1.0
+  HWC                                                                        1.0                2.0                2.0                1.0                1.0
+  LDD                                                                        1.0                1.0                2.0                1.0                1.0
+  BZR                                                                        1.0                1.0                2.0                1.0                1.0
+  [total]                                                                  129.0              249.0              343.0              133.0              127.0
+
+expired
+  TRUE                                                                       2.0               13.0                9.0                1.0                1.0
+  FALSE                                                                      5.0              114.0              212.0               10.0                4.0
+  [total]                                                                    7.0              127.0              221.0               11.0                5.0
+
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         256               70.9141 %
+Incorrectly Classified Instances       105               29.0859 %
+Kappa statistic                          0.4152
+Mean absolute error                      0.1437
+Root mean squared error                  0.2905
+Relative absolute error                 69.6554 %
+Root relative squared error             90.8212 %
+Total Number of Instances              361     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0          0         0         0          0.269    Death
+                 0.648     0.22       0.609     0.648     0.628      0.796    Injury
+                 0.795     0.345      0.78      0.795     0.787      0.802    Malfunction
+                 0.111     0.011      0.2       0.111     0.143      0.674    Other
+                 0         0          0         0         0          0.882    No answer provided
+Weighted Avg.    0.709     0.286      0.689     0.709     0.699      0.79 
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+   0   4   1   0   0 |   a = Death
+   0  81  43   1   0 |   b = Injury
+   0  42 174   3   0 |   c = Malfunction
+   0   5   3   1   0 |   d = Other
+   0   1   2   0   0 |   e = No answer provided
+
