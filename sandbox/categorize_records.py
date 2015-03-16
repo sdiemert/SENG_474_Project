@@ -30,8 +30,8 @@ for line in f:
                 index = val 
                 master[index] = record.copy()
             else:
-                if val != "":
-                    print index, j, keyDict[j]
+                if val != "" and val != "\n":
+                    print val, index, j, keyDict[j]
                     master[index][keyDict[j]] += 1
             j+=1
     i+=1

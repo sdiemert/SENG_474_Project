@@ -1,9 +1,11 @@
 from collections import Counter, OrderedDict 
+import itertools
 import json
 import nltk
 from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
 from pprint import pprint
+import os
 import random
 
 def parse_maude_data(filename):
@@ -37,7 +39,7 @@ def parse_maude_data(filename):
         for mdr_text_entry in entry["mdr_text"]:
           if "text" in mdr_text_entry:
             mdr_text[event_key].append(mdr_text_entry["text"])
-        mdr_text[event_key] = '. '.join(mdr_text[event_key])
+        mdr_text[event_key] = '. '.join(mdr_text[event_key]).lower()
 
         # Tokenize & Tag with nltk
         #text = nltk.word_tokenize(mdr_text[event_key])
@@ -50,7 +52,7 @@ def parse_maude_data(filename):
         # Ignore stopwords, punctuation, and numbers
         for word_pair, frequency in counter.most_common():
           word, part_of_speech = word_pair
-          if word.lower() in stopwords.words('english') or word.isdigit() or len(word) <= 1:
+          if word.lower() in stopwords.words('english') or word.isdigit() or len(word) <= 4:
             continue
 
   #        if frequency < frequency_threshold:
@@ -63,47 +65,63 @@ def parse_maude_data(filename):
           parsed[event_key][word] = new_entry
   return parsed
 
+# http://stackoverflow.com/a/16915734
+def powerset(iterable):
+  xs = list(iterable)
+  return itertools.chain.from_iterable(itertools.combinations(xs, n) for n in range(1, len(xs) + 1))
 
-def generate_weka_data(parsed, weka_filename):
+def generate_weka_data(parsed):
+  """
+  For each class value, we build a WEKA file for only that class.
+  Given our classes = {PointOfDecision, PointOfCare, CareProvider, MDDS, EMR, TechnicalProcess, HealthCareProcess},
+  the first classifier will take the given tuple and answer "Is this tuple in the PointOfDecision class or not?",
+  and the second classfier will answer "Is this tuple in the PointOfCare class or not?" and so on.
+  """
+
   # Read classes such as PointOfDecision or PointOfCare
   classes = read_json_from_file("categorized_records.json")
   class_values = classes[random.choice(classes.keys())].keys()
-
   # Get a set of all words used
   all_words = set()
   for event_key, words in parsed.items():
-    all_words.update(words.keys())
+    for word, word_metadata in words.items():
+      if word_metadata["part_of_speech"].startswith("NN"):
+        all_words.add(word)
   all_words = list(all_words)
+  
+  word_count_strings = {}
 
-  # Write metadata for the ARFF file
-  weka_file = open(weka_filename, "w")
-  weka_file.write("@relation seng474\n")
-  for word in all_words:
-    weka_file.write("@attribute {} NUMERIC\n".format(word))
-  weka_file.write("@attribute class {{{}}}\n".format(', '.join(class_values)))
-
-  weka_file.write("@data\n")
-
-  # Write @data
+  # Update word frequencies in the @data string for WEKA
   for event_key, words in parsed.items():
     if event_key not in classes:
       continue
 
-    word_count_string = [0] * len(all_words)
-    # class_count_string = [0] * len(class_values)
+    word_count_strings[event_key] = [0] * len(all_words)
 
-    for word, count in words.items():
+    for word, word_metadata in words.items():
+      if not word_metadata["part_of_speech"].startswith("NN"):
+        # print "Ignoring {}: {}".format(word, word_metadata["part_of_speech"])
+        continue
       index = all_words.index(word)
-      word_count_string[index] = count["count"]
+      word_count_strings[event_key][index] = word_metadata["count"]
 
-    for index, class_value in enumerate(class_values):
-      count = classes[event_key][class_value]
-      if count > 0:
-        weka_file.write(','.join([str(x) for x in word_count_string + [class_value]]))
-        weka_file.write('\n')
+  for current_class in class_values:
+    # Write metadata for the ARFF file
+    weka_file = open("{}/weka/{}.arff".format(os.getcwd(), current_class), "w")
+    weka_file.write("@relation seng474\n")
+    for word in all_words:
+      weka_file.write("@attribute {} NUMERIC\n".format(word))
+    weka_file.write("@attribute {} {{0, 1}}\n".format(current_class))
+    weka_file.write("@data\n")
 
-  weka_file.close()
+    for event_key, words in parsed.items():
+      if event_key not in classes:
+        continue
 
+      weka_file.write(','.join([str(x) for x in word_count_strings[event_key]]))
+      weka_file.write(',' + ["0", "1"][classes[event_key][current_class] > 0])
+      weka_file.write('\n')
+    weka_file.close()
 
 def write_json_to_file(j, output_filename):
   with open(output_filename, "w") as output_file:
@@ -119,9 +137,13 @@ def read_json_from_file(input_filename):
 
 def main():
   # parsed = parse_maude_data(filename="output.txt")
+  print ("Finished parsing MAUDE data...")
   # write_json_to_file(parsed, output_filename="word_frequencies.txt")
   parsed = read_json_from_file("word_frequencies.txt")
-  generate_weka_data(parsed, weka_filename="weka.arff")
+  print ("Generating WEKA data...")
+
+  generate_weka_data(parsed)
+  print ("Finished.")
 
 if __name__ == '__main__':
   main()
