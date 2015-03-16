@@ -1,0 +1,35 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     seng474
+Instances:    256
+Attributes:   2011
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         173               67.5781 %
+Incorrectly Classified Instances        83               32.4219 %
+Kappa statistic                         -0.0235
+Mean absolute error                      0.3194
+Root mean squared error                  0.5586
+Relative absolute error                102.6267 %
+Root relative squared error            141.9676 %
+Total Number of Instances              256     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.792     0.816      0.804     0.792     0.798      0.498    0
+                 0.184     0.208      0.173     0.184     0.178      0.506    1
+Weighted Avg.    0.676     0.7        0.683     0.676     0.679      0.5  
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 164  43 |   a = 0
+  40   9 |   b = 1
+
+  
