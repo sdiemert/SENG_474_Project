@@ -1,0 +1,21 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     seng474
+Instances:    256
+Attributes:   2011
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         220               85.9375 %
+Incorrectly Classified Instances        36               14.0625 %
+Kappa statistic                          0.1818
+Mean absolute error                      0.1425
+Root mean squared error                  0.3746
+Relative absolute error                118.2155 %
+Root relative squared error            154.6342 %
+Total Number of Instances              256     
+
