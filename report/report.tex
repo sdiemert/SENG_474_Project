@@ -51,14 +51,32 @@ Mason-Blakey and Habibi used the STAMP EMR model to classify 350 adverse event r
 	\item Technical Process
 \end{itemize}
 
-In this project the MAUDE database was examined algorithmically using standard data mining techniques. Two different approaches were used to analyze data from MAUDE database:  i) analysis of the meta-data for each record to predict the outcome of the event (injury, death, etc.); ii) analysis of the natural language description of the adverse event in an attempt to classify the outcome of each record (as outlined in the STAMP EMR model). The remainder of this paper is structured as follows: section 2 describes the methods used to collect and analyze this data; section 3 presents results; and section 4 provides a discussion of results and outlines strengths and weaknesses of the aforementioned approaches. 
+In this project the MAUDE database was examined algorithmically using standard data mining techniques. Two different approaches were used to analyze data from MAUDE database:  i) analysis of the metadata for each record to predict the outcome of the event (injury, death, etc.); ii) analysis of the natural language description of the adverse event in an attempt to classify the outcome of each record (as outlined in the STAMP EMR model). The remainder of this paper is structured as follows: section 2 describes the methods used to collect and analyze this data; section 3 presents results; and section 4 provides a discussion of results and outlines strengths and weaknesses of the aforementioned approaches. 
 
 \section{Methods}
-This section describes two approaches to analyzing the data from the MAUDE. The first approach used the meta data from a large number of events to attempt to predict event outcomes. The second approach used a small set of events (previously classified by Mason-Blakey and Habibi) and attempted to 	 these classifications based on the natural language summary of the adverse event. 
+This section describes two approaches to analyzing the data from the MAUDE. The first approach used the metadata from a large number of events to attempt to predict event outcomes. The second approach used a small set of events (previously classified by Mason-Blakey and Habibi) and attempted to classify these based on the natural language summary of the adverse event. 
 
-\subsection{Approach I: Meta Data Analysis}
+\subsection{Approach I: Metadata Analysis}
+The first approach that was considered for classifying records obtained from the MAUDE was the analysis of important metadata fields. In order to complete this approach, a Python script was written to mine the openFDA API over a specified date range and obtain raw JSON dumps of the data. Once this was complete, the results were manually inspected and a list of important metadata attributes was created. These attributes were as follows:
+
+\begin{itemize}
+	\item \textbf{device\_operator:} The person using the medical device at the time of the adverse event.
+	\item \textbf{manufacturer\_name:} The name of the manufacturer who created the device in question.
+	\item \textbf{reporter\_occpation\_code:} The occupation code of the person who reported the failure of the device in question.
+	\item \textbf{device\_report\_product\_code:} Three-letter FDA Product Classification Code. Medical devices are classified under 21 CFR Parts 862-892.
+	\item \textbf{expired:} A boolean flag with a value of \textit{true} if the device was past its manufacturer-provided expiry date at the time its failure was reported.
+\end{itemize}
+
+Once this list of metadata attributes was obtained, a second Python script was created to merge and sanitize the collected data, filtering out metadata attributes that were deemed unimportant before creating a .arff file for data analysis in Weka.
 
 \subsubsection{Data Collection}
+As previously described, the first step of the metadata analysis approach was to write a Python script that was able to scrape the openFDA API for all records within a specified date range. After obtaining an API key from openFDA, the script was written such that it grabbed records starting from January 1, 2014 in 100-record chunks as this is the maximum number of records that was allowed to be returned in a single API call. 
+
+It is worth noting that for the sake of virtual memory management, the script would write 10,000 records to a single text file before closing that file and opening a new one for the next 10,000 records. This also helped to ensure that as much data as possible would be preserved in the event of a script failure (due to, for example, loss of internet connection during execution). 
+
+Once the script was written and run for the first time, it was noted that a large number of HTTP 403 errors were being returned from the openFDA API. After consulting the API documentation, it was determined that this was due to the script exceeding the maximum number of API requests allowed per second. As a result, a timeout of half a second had to be added to each outgoing request to ensure that the number of requests per second remained below this limit.
+
+For the scope of this experiment, the first 50,000 of the 602,117 medical device failure records from the year 2014 were used in this approach. It is important to note, however, that the previously described script, is able to download any number of records between any range of dates. In the future, it would be interesting to run the script for longer to observe the effects that a larger dataset has on the results of the classification process.
 
 \subsubsection{Data Pre-Processing}
 
@@ -73,7 +91,7 @@ This section describes two approaches to analyzing the data from the MAUDE. The 
 
 \section{Results}
 
-\subsection{Approach I: Meta Data Analysis}
+\subsection{Approach I: Metadata Analysis}
 
 \subsection{Approach II: Record Categorization}
 
