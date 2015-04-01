@@ -79,8 +79,16 @@ Once the script was written and run for the first time, it was noted that a larg
 For the scope of this experiment, the first 50,000 of the 602,117 medical device failure records from the year 2014 were used in this approach. It is important to note, however, that the previously described script, is able to download any number of records between any range of dates. In the future, it would be interesting to run the script for longer to observe the effects that a larger dataset has on the results of the classification process.
 
 \subsubsection{Data Pre-Processing}
+The data pre-processing phase of the first approach was by far the most time consuming phase due to a number of challenges that were experienced when attempting to merge and parse the 10,000-record JSON dumps that were obtained in the data collection step into a single .arff file. To process the data, a second Python script was run that would open each of the 10,000-record JSON dumps, extract the important metadata attributes (as described in section 2.1), and write these to a .arff file. Non-unicode characters in the JSON dumps, however, meant that any records containing such characters could not be written to the .arff and needed to be skipped. As a result, ASCII encoding of each metadata attribute for each record needed to be attempted before writing it to the .arff if and only if all encoding attempts for the specified record succeeded.
+
+Once the .arff was created and loaded into Weka, it became apparent that due to the nominal nature of the metadata attributes, all possible values for each of the metadata attributes needed to be included in each one's respective @ATTRIBUTE definition at the beginning of the .arff. As a result, code to extract all possible values for each metadata attribute (while removing duplicates and skipping records with null values)	 needed to be written. 
+
+Upon rerunning the script with the aforementioned logic in place, a .arff file with fully defined, nominal attributes was created and could be loaded into Weka for analysis. 
 
 \subsubsection{Data Analysis}
+The data analysis phase for this approach was relatively straightforward. The .arff generated in the previous step was loaded into Weka and a Naive Bayes classifier with 10 fold cross-validation was used to analyze the data. After running the classifier, it was observed that 76.67\% of all records were classified correctly.
+
+It is worth mentioning that a number of other classifiers, such as J48, Bayesian Network, and ID3 were also run simply to observe results, but due to the large amount of data being processed, none of these produced meaningful results. 
 
 \subsection{Approach II: Record Categorization}
 \subsubsection{Data Collection}
