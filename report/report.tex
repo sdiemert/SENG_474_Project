@@ -4,6 +4,8 @@
 \usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
 								% TeX will automatically convert eps --> pdf in pdflatex		
 \usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
 
 \title{Analysis of Medical Device Failure Reports from the MAUDE Database: A Data Mining Approach}
 \author{Simon Diemert, Scott Low, Paul Moon}
@@ -36,7 +38,7 @@ Health care is a complex domain that requires medical devices to interact with h
 	\centering
 	\includegraphics[width=0.95\textwidth]{figures/stamp-emr}
 	\caption{STAMP - EMR model from \cite{stamp_emr_2011}}
-	]\label{fig:stamp-emr}
+	\label{fig:stamp-emr}
 \end{figure}
 
 Mason-Blakey and Habibi used the STAMP EMR model to classify 350 adverse event reports related to software in the MAUDE database (not yet published). This classification was conducted by manually inspecting the natural language summary of each event. A number of different classes (related to the STAMP EMR model) were assigned to each record depending on the reviewer's understanding on the adverse event and how it fits into the STAMP EHR model. The categories used were: 
@@ -100,6 +102,44 @@ It is worth mentioning that a number of other classifiers, such as J48, Bayesian
 \section{Results}
 
 \subsection{Approach I: Metadata Analysis}
+
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/death}
+        \caption{Death. Area: 0.8412}
+        \label{fig:death}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/injury}
+        \caption{Injury. Area: 0.8843}
+        \label{fig:injury}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/other}
+        \caption{Other. Area: 0.9139}
+        \label{fig:other}
+    \end{subfigure}    
+    \begin{subfigure}[b]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/malfunction}
+        \caption{Malfunction. Area: 0.8869}
+        \label{fig:injury}
+    \end{subfigure}  
+    \begin{subfigure}[b]{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/no-answer}
+        \caption{No Answer. Area: 0.9084}
+        \label{fig:no-figure}
+    \end{subfigure}          
+    \caption{ROC Curves for Metadata Classification}
+    \label{fig:ROC Curves}
+\end{figure}
 
 \subsection{Approach II: Record Categorization}
 
