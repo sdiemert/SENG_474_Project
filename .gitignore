@@ -6,6 +6,11 @@
 *.toc
 *.bbl
 *.blg
+<<<<<<< HEAD
 *.pdf
 
 report.zip
+=======
+
+report/report.pdf
+>>>>>>> origin/master
