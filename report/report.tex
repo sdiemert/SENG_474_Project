@@ -56,7 +56,7 @@ Mason-Blakey and Habibi used the STAMP EMR model to classify 350 adverse event r
 In this project the MAUDE database was examined algorithmically using standard data mining techniques. Two different approaches were used to analyze data from MAUDE database:  i) analysis of the metadata for each record to predict the outcome of the event (injury, death, etc.); ii) analysis of the natural language description of the adverse event in an attempt to classify the outcome of each record (as outlined in the STAMP EMR model). The remainder of this paper is structured as follows: section 2 describes the methods used to collect and analyze this data; section 3 presents results; and section 4 provides a discussion of results and outlines strengths and weaknesses of the aforementioned approaches. 
 
 \section{Methods}
-This section describes two approaches to analyzing the data from the MAUDE. The first approach used the metadata from a large number of events to attempt to predict event outcomes. The second approach used a small set of events (previously classified by Mason-Blakey and Habibi) and attempted to classify these based on the natural language summary of the adverse event. 
+This section describes two approaches to analyzing the data from the MAUDE. The first approach used the metadata from a large number of events to attempt to predict event outcomes. The second approach used a small set of events (previously classified by Mason-Blakey and Habibi) and attempted to classify these based on the natural language summary of the adverse event.
 
 \subsection{Approach I: Metadata Analysis}
 The first approach that was considered for classifying records obtained from the MAUDE was the analysis of important metadata fields. In order to complete this approach, a Python script was written to mine the openFDA API over a specified date range and obtain raw JSON dumps of the data. Once this was complete, the results were manually inspected and a list of important metadata attributes was created. These attributes were as follows:
@@ -94,10 +94,27 @@ It is worth mentioning that a number of other classifiers, such as J48, Bayesian
 
 \subsection{Approach II: Record Categorization}
 \subsubsection{Data Collection}
+The second approach for classifying the MAUDE records was to use the report description text. The medical device failure records from the openFDA API obtained in section 2.1.1 were used for their report description, denoted as mdr\_text. An example mdr\_text contained text such as "IT WAS REPORTED THAT THE CUSTOMER'S INSULIN PUMP HAD AN ERROR ALARM WHILE CHANGING THE RESERVOIR AND INSULIN WAS SQUIRTING OUT. ADVISED THAT THE INSULIN PUMP WILL BE REPLACED. NO FURTHER INFORMATION WAS PROVIDED". 
+
+Mason-Blakey and Habibi's classifications were provided as a CSV file. Formally, the file contains classifications for each event, where the classifications were one of the following in Table \ref{tab:OriginalClassifications}. The file denoted 0, 1, or 2 depending on how many people classified that event as the class.
 
 \subsubsection{Data Pre-Processing}
+First, a Python script named nlp.py extracted the mdr\_text from the MAUDE records. The script joined all mdr\_text records for a single event into a single string, as one event could have many event report descriptions. Using a Python library named nltk (Natural Language ToolKit), the words were tokenized and tagged according to their part-of-speech. For example, "failure" was tagged as NN (noun), and "lifescan" was tagged as JJ (adjective). The frequencies of tokens were also counted using Python's collections.Counter data structure. If any of the tokens did not meet the following criteria, it was discarded.
+
+\begin{itemize}
+	\item \textbf{Stopword}: If the token was a stopword such as "the", "is", "which" etc., it was discarded because we considered stopwords as semantically insignificant.
+	\item \textbf{Minimum word length}: If the word was less than or equal to 4 characters, the word was discarded because there were many semantically insignificant words such as "ohms", "10x", "hour" etc. that were short in word length. We discovered there were more interesting words with word length $\geq 4$ such as "tachycardia", "investigation", and "incision".
+	\item \textbf{Part-of-speech}: Only tokens tagged as "NN" (noun) were considered as important for this classification approach, because the classification method was only counting for the frequency of words, and it did not use advanced data mining tools that utilized part-of-speech.
+\end{itemize}
+
+Furthermore, we decided that there were too many classes in Mason-Blakey and Habibi's classifications, and the classes within the CSV file was simplified by combining similar classes, such as "PointOfCare.Sensor.Human" and "PointOfCare.Sensor.Machine" being combined into "PointOfCareSensor". The simplified classes can be seen in Table \ref{tab:SimplifiedClassifications}. 
+
+To generate the .arff file necessary for data mining with Weka, nlp.py kept a dictionary of all valid words and wrote "@data [word] NUMERIC" for each word in the dictionary. The script kept track of the dictionary index for each word, and for each event, the script generated a string which encoded the count of words with the count in its appropriate index. For example, if the word "tachycardia" was the fifth word in the dictionary and an event's mdr\_text contained three instances of "tachycardia", then the string may look like "0, 0, 0, 0, 3, ..., 0".
+
+An .arff file was generated for each of the nine classes to accommodate the fact that an event could be classified by more than one class. Each .arff consisted of 2010 unique words, and 256 instances.
 
 \subsubsection{Data Analysis}
+The generated .arff files were loaded into Weka, and the Naive Bayes classifier with 10-fold cross-validation was employed. Other classifiers such as BayesNet (Bayesian Network) was explored, but the Naive Bayes classifier fit the data set most appropriately because text categorization using frequency of words is often solved with Naive Bayes models, as taught in class.
 
 \section{Results}
 
@@ -143,12 +160,185 @@ It is worth mentioning that a number of other classifiers, such as J48, Bayesian
 
 \subsection{Approach II: Record Categorization}
 
+The results of running the 10-fold Naive Bayes classifier on each of the 9 classes are shown below.
+
+\begin{table}[htdp]
+\caption{Naive Bayes Classifier on CareProviderOutput Class}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+& Precision & Recall & F-Measure \\ \hline
+Class = Present & 0.955 & 0.892 & 0.922 \\ \hline
+Class = Absent & 0.188 & 0.375 & 0.25 \\ \hline
+Weighted Average & 0.907 & 0.859 & 0.88 \\ \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
+
+\begin{table}[htdp]
+\caption{Naive Bayes Classifier on EMROutput Class}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+& Precision & Recall & F-Measure \\ \hline
+Class = Present & 0.189 & 0.313 & 0.235 \\ \hline
+Class = Absent & 0.892 & 0.808 & 0.848 \\ \hline
+Weighted Average & 0.804 & 0.746 & 0.771\\ \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
+
+\begin{table}[htdp]
+\caption{Naive Bayes Classifier on HealthCareProcessOutput Class}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+& Precision & Recall & F-Measure \\ \hline
+Class = Present & 0.864 & 0.868 & 0.866 \\ \hline
+Class = Absent & 0.171 & 0.167 & 0.169 \\ \hline
+Weighted Average & 0.767 & 0.77 & 0.768 \\ \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
+
+\begin{table}[htdp]
+\caption{Naive Bayes Classifier on MDDSOutput Class}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+& Precision & Recall & F-Measure \\ \hline
+Class = Present & 0.907 & 0.833 & 0.869 \\ \hline
+Class = Absent & 0.049 & 0.091 & 0.063 \\ \hline
+Weighted Average & 0.833 & 0.77 & 0.799 \\ \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
+
+\begin{table}[htdp]
+\caption{Naive Bayes Classifier on PointOfCareActuatorOutput Class}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+& Precision & Recall & F-Measure \\ \hline
+Class = Present & 0.661 & 0.73 & 0.694 \\ \hline
+Class = Absent & 0.266 & 0.207 & 0.233 \\ \hline
+Weighted Average & 0.535 & 0.563 & 0.546 \\ \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
+
+\begin{table}[htdp]
+\caption{Naive Bayes Classifier on PointOfCareSensorOutput Class}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+& Precision & Recall & F-Measure \\ \hline
+Class = Present & 0.793 & 0.647 & 0.712 \\ \hline
+Class = Absent & 0.228 & 0.382 & 0.286 \\ \hline
+Weighted Average & 0.671 & 0.59 & 0.621 \\ \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
+
+\begin{table}[htdp]
+\caption{Naive Bayes Classifier on PointOfDecisionControlOutput Class}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+& Precision & Recall & F-Measure \\ \hline
+Class = Present & 0.804 & 0.792 & 0.798 \\ \hline
+Class = Absent & 0.173 & 0.184 & 0.178 \\ \hline
+Weighted Average & 0.683 & 0.676 & 0.679 \\ \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
+
+\begin{table}[htdp]
+\caption{Naive Bayes Classifier on PointOfDecisionDisplayOutput Class}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+& Precision & Recall & F-Measure \\ \hline
+Class = Present & 0.732 & 0.755 & 0.743 \\ \hline
+Class = Absent & 0.258 & 0.235 & 0.246 \\ \hline
+Weighted Average & 0.606 & 0.617 & 0.611 \\ \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
+
+\begin{table}[htdp]
+\caption{Naive Bayes Classifier on TechnicalProcessOutput Class}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+& Precision & Recall & F-Measure \\ \hline
+Class = Present & 0.869 & 0.869 & 0.869 \\ \hline
+Class = Absent & 0.349 & 0.349 & 0.349 \\ \hline
+Weighted Average & 0.781 & 0.781 & 0.781 \\ \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
+
 \section{Discussion}
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+For the Record Categorization approach, the Naive Bayes classifier showed promising results (f-measures) for many of the classes. For example, the CareProviderOutput class showed the f-measure of 0.922; however, 7 out of 9 classes had a f-measure below 0.25 for at least one of its classes.
 
 \section{Conclusion}
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
+\section{Appendix}
+
+\begin{table}[htdp]
+\caption{Original Classifications}
+\label{tab:OriginalClassifications}
+\begin{center}
+\begin{tabular}{|p{80mm}|}
+\hline
+CareProvider.Integrity.Data \newline CareProvider.Integrity.Relation \newline CareProvider.Integrity.Knowledge \\ \hline
+PointOfDecision.Display.Human \newline PointOfDecision.Display.Machine \\ \hline
+PointOfDecision.Control.Human \newline PointOfDecision.Control.Machine \\ \hline
+PointOfCare.Sensor.Human \newline PointOfCare.Sensor.Machine \\ \hline
+PointOfCare.Actuator.Human \newline PointOfCare.Actuator.Machine \\ \hline
+MDDS \\ \hline
+EMR.Usability.Operability \newline EMR.Usability.Knowability \\ \hline
+EMR.Availibility.Reliability \newline EMR.Availibility.FaultTolerence \\ \hline
+EMR.Integrity.Physical \newline EMR.Integrity.Data \newline EMR.Integrity.Relation \newline EMR.Integrity.Knowledge \\ \hline
+HealthCareProcess.Controller.Capital \newline HealthCareProcess.Controller.Responsiveness \newline HealthCareProcess.Controller.ClinicalIntegrity \\ \hline
+HealthCareProcess.Sensor \newline HealthCareProcess.Display \newline HealthCareProcess.Actuator \newline HealthCareProcess.Control \\ \hline
+TechnicalProcess.Controller.Capital \newline TechnicalProcess.Controller.Responsiveness \newline TechnicalProcess.Controller.TechnicalIntegrity \newline TechnicalProcess.Sensor \newline TechnicalProcess.Actuator \\ \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
+
+\begin{table}[htdp]
+\caption{Simplified Classifications}
+\label{tab:SimplifiedClassifications}
+\begin{center}
+\begin{tabular}{|p{40mm}|}
+\hline
+CareProvider \\ \hline
+PointOfDecisionDisplay \\ \hline
+PointOfDecisionControl \\ \hline
+PointOfCareSensor \\ \hline
+PointOfCareActuator \\ \hline
+MDDS \\ \hline
+EMR \\ \hline
+HealthCareProcess \\ \hline
+TechnicalProcess \\ \hline
+\end{tabular}
+\end{center}
+\label{default}
+\end{table}%
 
 \bibliographystyle{plain}
 \bibliography{report}
