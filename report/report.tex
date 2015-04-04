@@ -100,7 +100,7 @@ The second approach for classifying the MAUDE records was to use the report desc
 Mason-Blakey and Habibi's classifications were provided as a CSV file. Formally, the file contains classifications for each event, where the classifications were one of the following in Table \ref{tab:OriginalClassifications}. The file denoted 0, 1, or 2 depending on how many people classified that event as the class.
 
 \subsubsection{Data Pre-Processing}
-First, a Python script named nlp.py extracted the mdr\_text from the MAUDE records. The script joined all mdr\_text records for a single event into a single string, as one event could have many event report descriptions. Using a Python library named nltk (Natural Language ToolKit), the words were tokenized and tagged according to their part-of-speech. For example, "failure" was tagged as NN (noun), and "lifescan" was tagged as JJ (adjective). The frequencies of tokens were also counted using Python's collections.Counter data structure. If any of the tokens did not meet the following criteria, it was discarded.
+First, a Python script named nlp.py extracted the mdr\_text from the MAUDE records. The script joined all mdr\_text records for a single event into a single string, as one event could have many event report descriptions. Using a Python library named nltk (Natural Language ToolKit), the words were tokenized and tagged according to their part-of-speech. For example, "failure" was tagged as NN (noun), and "lifescan" was tagged as JJ (adjective). The frequencies of tokens were also counted using Python's collections.Counter data structure. If a token did not satisfy the following conditions, it was discarded.
 
 \begin{itemize}
 	\item \textbf{Stopword}: If the token was a stopword such as "the", "is", "which" etc., it was discarded because we considered stopwords as semantically insignificant.
@@ -108,11 +108,11 @@ First, a Python script named nlp.py extracted the mdr\_text from the MAUDE recor
 	\item \textbf{Part-of-speech}: Only tokens tagged as "NN" (noun) were considered as important for this classification approach, because the classification method was only counting for the frequency of words, and it did not use advanced data mining tools that utilized part-of-speech.
 \end{itemize}
 
-Furthermore, we decided that there were too many classes in Mason-Blakey and Habibi's classifications, and the classes within the CSV file was simplified by combining similar classes, such as "PointOfCare.Sensor.Human" and "PointOfCare.Sensor.Machine" being combined into "PointOfCareSensor". The simplified classes can be seen in Table \ref{tab:SimplifiedClassifications}. 
+Furthermore, we decided that there were too many classes in Mason-Blakey and Habibi's classifications, and the classes within the CSV file was simplified by combining similar classes, such as "PointOfCare.Sensor.Human" and "PointOfCare.Sensor.Machine" into "PointOfCareSensor". The simplified classes can be seen in Table \ref{tab:SimplifiedClassifications}.
 
 To generate the .arff file necessary for data mining with Weka, nlp.py kept a dictionary of all valid words and wrote "@data [word] NUMERIC" for each word in the dictionary. The script kept track of the dictionary index for each word, and for each event, the script generated a string which encoded the count of words with the count in its appropriate index. For example, if the word "tachycardia" was the fifth word in the dictionary and an event's mdr\_text contained three instances of "tachycardia", then the string may look like "0, 0, 0, 0, 3, ..., 0".
 
-An .arff file was generated for each of the nine classes to accommodate the fact that an event could be classified by more than one class. Each .arff consisted of 2010 unique words, and 256 instances.
+An .arff file was generated for each of the nine classes to accommodate the fact that an event could be classified by more than one class. Each .arff consisted of 2010 unique words and 256 instances.
 
 \subsubsection{Data Analysis}
 The generated .arff files were loaded into Weka, and the Naive Bayes classifier with 10-fold cross-validation was employed. Other classifiers such as BayesNet (Bayesian Network) was explored, but the Naive Bayes classifier fit the data set most appropriately because text categorization using frequency of words is often solved with Naive Bayes models, as taught in class.
@@ -183,131 +183,282 @@ Furthermore, the ROC curves obtained for each of the five possible classes of re
 
 The results of running the 10-fold Naive Bayes classifier on each of the 9 classes are shown below.
 
-\begin{table}[htdp]
-\caption{Naive Bayes Classifier on CareProviderOutput Class}
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-& Precision & Recall & F-Measure \\ \hline
-Class = Present & 0.955 & 0.892 & 0.922 \\ \hline
-Class = Absent & 0.188 & 0.375 & 0.25 \\ \hline
-Weighted Average & 0.907 & 0.859 & 0.88 \\ \hline
-\end{tabular}
-\end{center}
-\label{default}
+\begin{table}[H]
+    \caption{Naive Bayes Classifier on CareProviderOutput Class}
+        \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            & Precision & Recall & F-Measure \\ \hline
+            Class = Present & 0.955 & 0.892 & 0.922 \\ \hline
+            Class = Absent & 0.188 & 0.375 & 0.25 \\ \hline
+            Weighted Average & 0.907 & 0.859 & 0.88 \\ \hline
+        \end{tabular}
+        \end{center}
+    \label{default}
 \end{table}%
 
-\begin{table}[htdp]
-\caption{Naive Bayes Classifier on EMROutput Class}
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-& Precision & Recall & F-Measure \\ \hline
-Class = Present & 0.189 & 0.313 & 0.235 \\ \hline
-Class = Absent & 0.892 & 0.808 & 0.848 \\ \hline
-Weighted Average & 0.804 & 0.746 & 0.771\\ \hline
-\end{tabular}
-\end{center}
-\label{default}
+\begin{table}[H]
+    \caption{Naive Bayes Classifier on EMROutput Class}
+        \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            & Precision & Recall & F-Measure \\ \hline
+            Class = Present & 0.189 & 0.313 & 0.235 \\ \hline
+            Class = Absent & 0.892 & 0.808 & 0.848 \\ \hline
+            Weighted Average & 0.804 & 0.746 & 0.771\\ \hline
+        \end{tabular}
+        \end{center}
+    \label{default}
 \end{table}%
 
-\begin{table}[htdp]
-\caption{Naive Bayes Classifier on HealthCareProcessOutput Class}
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-& Precision & Recall & F-Measure \\ \hline
-Class = Present & 0.864 & 0.868 & 0.866 \\ \hline
-Class = Absent & 0.171 & 0.167 & 0.169 \\ \hline
-Weighted Average & 0.767 & 0.77 & 0.768 \\ \hline
-\end{tabular}
-\end{center}
-\label{default}
+\begin{table}[H]
+    \caption{Naive Bayes Classifier on HealthCareProcessOutput Class}
+        \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            & Precision & Recall & F-Measure \\ \hline
+            Class = Present & 0.864 & 0.868 & 0.866 \\ \hline
+            Class = Absent & 0.171 & 0.167 & 0.169 \\ \hline
+            Weighted Average & 0.767 & 0.77 & 0.768 \\ \hline
+        \end{tabular}
+        \end{center}
+    \label{default}
 \end{table}%
 
-\begin{table}[htdp]
-\caption{Naive Bayes Classifier on MDDSOutput Class}
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-& Precision & Recall & F-Measure \\ \hline
-Class = Present & 0.907 & 0.833 & 0.869 \\ \hline
-Class = Absent & 0.049 & 0.091 & 0.063 \\ \hline
-Weighted Average & 0.833 & 0.77 & 0.799 \\ \hline
-\end{tabular}
-\end{center}
-\label{default}
+\begin{table}[H]
+    \caption{Naive Bayes Classifier on MDDSOutput Class}
+        \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            & Precision & Recall & F-Measure \\ \hline
+            Class = Present & 0.907 & 0.833 & 0.869 \\ \hline
+            Class = Absent & 0.049 & 0.091 & 0.063 \\ \hline
+            Weighted Average & 0.833 & 0.77 & 0.799 \\ \hline
+        \end{tabular}
+        \end{center}
+    \label{default}
 \end{table}%
 
-\begin{table}[htdp]
-\caption{Naive Bayes Classifier on PointOfCareActuatorOutput Class}
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-& Precision & Recall & F-Measure \\ \hline
-Class = Present & 0.661 & 0.73 & 0.694 \\ \hline
-Class = Absent & 0.266 & 0.207 & 0.233 \\ \hline
-Weighted Average & 0.535 & 0.563 & 0.546 \\ \hline
-\end{tabular}
-\end{center}
-\label{default}
+\begin{table}[H]
+    \caption{Naive Bayes Classifier on PointOfCareActuatorOutput Class}
+        \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            & Precision & Recall & F-Measure \\ \hline
+            Class = Present & 0.661 & 0.73 & 0.694 \\ \hline
+            Class = Absent & 0.266 & 0.207 & 0.233 \\ \hline
+            Weighted Average & 0.535 & 0.563 & 0.546 \\ \hline
+        \end{tabular}
+        \end{center}
+    \label{default}
 \end{table}%
 
-\begin{table}[htdp]
-\caption{Naive Bayes Classifier on PointOfCareSensorOutput Class}
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-& Precision & Recall & F-Measure \\ \hline
-Class = Present & 0.793 & 0.647 & 0.712 \\ \hline
-Class = Absent & 0.228 & 0.382 & 0.286 \\ \hline
-Weighted Average & 0.671 & 0.59 & 0.621 \\ \hline
-\end{tabular}
-\end{center}
-\label{default}
+\begin{table}[H]
+    \caption{Naive Bayes Classifier on PointOfCareSensorOutput Class}
+        \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            & Precision & Recall & F-Measure \\ \hline
+            Class = Present & 0.793 & 0.647 & 0.712 \\ \hline
+            Class = Absent & 0.228 & 0.382 & 0.286 \\ \hline
+            Weighted Average & 0.671 & 0.59 & 0.621 \\ \hline
+        \end{tabular}
+        \end{center}
+    \label{default}
 \end{table}%
 
-\begin{table}[htdp]
-\caption{Naive Bayes Classifier on PointOfDecisionControlOutput Class}
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-& Precision & Recall & F-Measure \\ \hline
-Class = Present & 0.804 & 0.792 & 0.798 \\ \hline
-Class = Absent & 0.173 & 0.184 & 0.178 \\ \hline
-Weighted Average & 0.683 & 0.676 & 0.679 \\ \hline
-\end{tabular}
-\end{center}
-\label{default}
+\begin{table}[H]
+    \caption{Naive Bayes Classifier on PointOfDecisionControlOutput Class}
+        \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            & Precision & Recall & F-Measure \\ \hline
+            Class = Present & 0.804 & 0.792 & 0.798 \\ \hline
+            Class = Absent & 0.173 & 0.184 & 0.178 \\ \hline
+            Weighted Average & 0.683 & 0.676 & 0.679 \\ \hline
+        \end{tabular}
+        \end{center}
+    \label{default}
 \end{table}%
 
-\begin{table}[htdp]
-\caption{Naive Bayes Classifier on PointOfDecisionDisplayOutput Class}
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-& Precision & Recall & F-Measure \\ \hline
-Class = Present & 0.732 & 0.755 & 0.743 \\ \hline
-Class = Absent & 0.258 & 0.235 & 0.246 \\ \hline
-Weighted Average & 0.606 & 0.617 & 0.611 \\ \hline
-\end{tabular}
-\end{center}
-\label{default}
+\begin{table}[H]
+    \caption{Naive Bayes Classifier on PointOfDecisionDisplayOutput Class}
+        \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            & Precision & Recall & F-Measure \\ \hline
+            Class = Present & 0.732 & 0.755 & 0.743 \\ \hline
+            Class = Absent & 0.258 & 0.235 & 0.246 \\ \hline
+            Weighted Average & 0.606 & 0.617 & 0.611 \\ \hline
+        \end{tabular}
+        \end{center}
+    \label{default}
 \end{table}%
 
-\begin{table}[htdp]
-\caption{Naive Bayes Classifier on TechnicalProcessOutput Class}
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
-& Precision & Recall & F-Measure \\ \hline
-Class = Present & 0.869 & 0.869 & 0.869 \\ \hline
-Class = Absent & 0.349 & 0.349 & 0.349 \\ \hline
-Weighted Average & 0.781 & 0.781 & 0.781 \\ \hline
-\end{tabular}
-\end{center}
-\label{default}
+\begin{table}[H]
+    \caption{Naive Bayes Classifier on TechnicalProcessOutput Class}
+        \begin{center}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            & Precision & Recall & F-Measure \\ \hline
+            Class = Present & 0.869 & 0.869 & 0.869 \\ \hline
+            Class = Absent & 0.349 & 0.349 & 0.349 \\ \hline
+            Weighted Average & 0.781 & 0.781 & 0.781 \\ \hline
+        \end{tabular}
+        \end{center}
+    \label{default}
 \end{table}%
+
+The ROC curves for each of the classes are shown in Figure \ref{fig:Approach 2 ROC Curves} below.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/CareProvider-False(0)}
+        \caption{CareProvider-False. Area: 0.5828}
+        \label{fig:CareProvider-False(0)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/CareProvider-True(1)}
+        \caption{CareProvider-True. Area: 0.5589}
+        \label{fig:CareProvider-True(1)}
+    \end{subfigure}
+    \hfill
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/EMR-False(0)}
+        \caption{EMR-False. Area: 0.5344}
+        \label{fig:EMR-False(0)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/EMR-True(1)}
+        \caption{EMR-True. Area: 0.539}
+        \label{fig:EMR-True(1)}
+    \end{subfigure}
+    \hfill
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/HealthCareProcess-False(0)}
+        \caption{HealthCareProcess-False. Area: 0.576}
+        \label{fig:HealthCareProcess-False(0)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/HealthCareProcess-True(1)}
+        \caption{HealthCareProcess-True. Area: 0.585}
+        \label{fig:HealthCareProcess-True(1)}
+    \end{subfigure}
+    \hfill
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/MDDS-False(0)}
+        \caption{MDDS-False. Area: 0.4954}
+        \label{fig:MDDS-False(0)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/MDDS-True(1)}
+        \caption{MDDS-True. Area: 0.4672}
+        \label{fig:MDDS-True(1)}
+    \end{subfigure}
+    \hfill
+\end{figure}
+
+\begin{figure}[H]
+    \ContinuedFloat
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/PointOfCareActuator-False(0)}
+        \caption{PointOfCareActuator-False. Area: 0.4586}
+        \label{fig:PointOfCareActuator-False(0)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/PointOfCareActuator-True(1)}
+        \caption{PointOfCareActuator-True. Area: 0.4585}
+        \label{fig:PointOfCareActuator-True(1)}
+    \end{subfigure}
+    \hfill
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/PointOfCareSensor-False(0)}
+        \caption{PointOfCareSensor-False. Area: 0.5395}
+        \label{fig:PointOfCareSensor-False(0)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/PointOfCareSensor-True(1)}
+        \caption{PointOfCareSensor-True. Area: 0.533}
+        \label{fig:PointOfCareSensor-True(1)}
+    \end{subfigure}
+    \hfill
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/PointOfDecisionControl-False(0)}
+        \caption{PointOfDecisionControl-False. Area: 0.4983}
+        \label{fig:PointOfDecisionControl-False(0)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/PointOfDecisionControl-True(1)}
+        \caption{PointOfDecisionControl-True. Area: 0.5061}
+        \label{fig:PointOfDecisionControl-True(1)}
+    \end{subfigure}
+    \hfill
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/PointOfDecisionDisplay-False(0)}
+        \caption{PointOfDecisionDisplay-False. Area: 0.5179}
+        \label{fig:PointOfDecisionDisplay-False(0)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/PointOfDecisionDisplay-True(1)}
+        \caption{PointOfDecisionDisplay-True. Area: 0.5195}
+        \label{fig:PointOfDecisionDisplay-True(1)}
+    \end{subfigure}
+    \hfill
+\end{figure}
+
+\begin{figure}[H]
+    \ContinuedFloat
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/TechnicalProcess-False(0)}
+        \caption{TechnicalProcess-False. Area: 0.6259}
+        \label{fig:TechnicalProcess-False(0)}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/approach2/TechnicalProcess-True(1)}
+        \caption{TechnicalProcess-True. Area: 0.6386}
+        \label{fig:TechnicalProcess-True(1)}
+    \end{subfigure}
+    \hfill
+
+    \caption{ROC Curves for Metadata Classificatio}
+    \label{fig:Approach 2 ROC Curves}
+\end{figure}
+
 
 \section{Discussion}
 
