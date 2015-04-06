@@ -31,7 +31,7 @@ The Manufacture User Facility Device Experience (MAUDE) database contains over 3
 \section{Introduction}
 Modern medicine relies heavily on technology to support the delivery of treatments and care. These technologies are described by the umbrella term ``medical devices" which encompasses any combination of mechanical, electrical, software devices that are used in medical care. The implications of these devices failing can range from minor annoyances to death. Adverse events related to medical devices in the United States are reported to the Food and Drug Administration (FDA). These reports are stored in the \textbf{Ma}nufacturer and \textbf{U}ser Facility \textbf{D}evice \textbf{E}xperience (MAUDE) database and are publicly accessible. The MAUDE database contains approximately 3.7 million records dating back to 1991. 
 
-Previous works have focused on analyzing the data in the MAUDE database to extract trends related to specific devices \cite{weber_preliminary_2011}. However, many of these analyses have been conducted using a manual review process that does not lend itself well to analyzing the large number of records available in the MAUDE database. The FDA has recently made the data accessible via its openFDA API which allows programmatic access to the data. To the best of our knowledge, no work analyzing data obtained from this new API has been published.
+Previous works have focused on analyzing the data in the MAUDE database to extract trends related to specific devices \cite{weber_preliminary_2011, fuller_electrosurgical_2012}. However, many of these analyses have been conducted using a manual review process that does not lend itself well to analyzing the large number of records available in the MAUDE database. The FDA has recently made the data accessible via its openFDA API which allows programmatic access to the data. To the best of our knowledge, no work analyzing data obtained from this new API has been published.
 
 Health care is a complex domain that requires medical devices to interact with humans in increasingly complicated ways. There are many examples of adverse medical events that were caused by a combination of a device and human users. Horsky conducted an analysis of such an event \cite{horsky_2005} in which a clinical information system and its users caused a near-fatal overdose of potassium choloride. Clearly, safety analyses of medical devices must consider more than just the device. They must also consider how the device interacts with human actors \cite{karsh_health_2010}. Leveson has presented general a model for analyzing the behaviour of complex sociotechnical systems called the STAMP model. The STAMP model describes a system as a feedback control loop with a controlled process being actuated and sensed by a human actor \cite{leveson_engineering_2012}. Work by Mason-Blakely and Weber has tailored this model for analysis of software in health care. This model is shown in Figure \ref{fig:stamp-emr} below \cite{stamp_emr_2011}.
 
@@ -101,7 +101,7 @@ The second approach for classifying records from the MAUDE was to use the report
 \end{quote} 
 
 \subsubsection{Data Collection}
-Mason-Blakey and Habibi's initial 353 classifications, which were classified in this approach using 10 fold cross-validation, were provided as a CSV file. The file contained identification numbers for each record, as well as classifications for each event, where the classifications were one of the following in Table \ref{tab:OriginalClassifications}. The file denoted 0 or 1 depending on how many reporters classified that event a specific class.
+256 of Mason-Blakey and Habibi's initial 353 classifications were used; these provided in a CSV file. The 256 records were classified in this approach using 10 fold cross-validation. The file contained identification numbers for each record, as well as classifications for each event, where the classifications were one of the following in Table \ref{tab:OriginalClassifications}. The file denoted 0 or 1 depending on how many reporters classified that event a specific class.
 
 The medical device failure records used in this approach were pulled from the openFDA API in a method similar to that described in section 2.1.1 above. Rather than pulling down the 50,000 most recent records, however, the identification numbers from the provided CSV file were used to query the database for the 353 records corresponding to Mason-Blakey and Habibi's initial classifications. The next step in this approach was to sanitize the input data for processing in Weka.
 
@@ -475,18 +475,23 @@ Furthermore, the analysis of device\_report\_product\_code exposed several inter
 
 Further improvements that could be made to the metadata analysis approach would be to manually remove noise from data (such as records with classifications of Other or No Answer Provided), or to consider other combinations of metadata attributes for analysis. Since the number of useful metadata attributes available from the openFDA API was observed to be relatively low, however, we believe that making improvements to the second approach outlined in this report would produce more meaningful results.
 
-For the record description categorization approach, the Naive Bayes classifier showed promising f-measures for many of the classes. The best f-measure belonged to the CareProviderOutput (class = present) class with a value of 0.922. However, seven out of nine classes showed f-measures below 0.25 for at least one of their true/false classes, suggesting room for improvement. An interesting observation is that for all classes, the f-measures for one true/false class was significantly higher than the other e.g. f-measure of PointOfDecisionControlOutput for class = present was 0.798 compared to the f-measure of class = absent at 0.178.
+For the second approach, the Naive Bayes classifier combined with word frequency analysis showed promising f-measures for many of the classes. The best f-measure belonged to the CareProviderOutput (class = present) class with a value of 0.922. However, seven out of nine classes showed f-measures below 0.25 for at least one of their true/false classes, suggesting room for improvement. An interesting observation is that for all classes, the f-measures for one true/false class was significantly higher than the other e.g. f-measure of PointOfDecisionControlOutput for class = present was 0.798 compared to the f-measure of class = absent at 0.178.
 
-The ROC curves in Figure \ref{fig:Approach 2 ROC Curves} show that the Naive Bayes classifier's performance was subpar. PointOfCareActuator-True ROC curve showed an area of 0.4585, which is marginally better than a classifier which predicts by flipping a coin. The best area under ROC belonged to TechnicalProcess (True) with an area of 0.6386.
+The ROC curves in Figure \ref{fig:Approach 2 ROC Curves} show that the Naive Bayes classifier's performance was subpar. PointOfCareActuator-True ROC curve showed an area of 0.4585, less than 0.5, indicating an classification accuracy slightly worse than a truly random approach (flipping a fair coin). The best area under ROC belonged to TechnicalProcess (True) with an area of 0.6386. These ROC results indicate that is significant room for improvement. 
 
 These results suggest that using word frequencies is still a naive method of implementing this classification approach. Future work includes extensive exploration with various natural language processing techniques such as analyzing part-of-speech and n-grams; sentimental analysis; and increasing the sample size from 256 to a larger number.
 
+Indeed, the less than impressive results from both approach I and II are likely due to a naive analysis approach combined with a very noisy and incomplete data set. The quality of a the data in the MAUDE is questionable due to all reports being voluntarily provided by device manufacturers and clinical personal, which may lead to some skewing of the results. As a result the data is not reported in a uniform format (both for the mdr\_text and metadata fields) \cite{weber_preliminary_2011, fuller_electrosurgical_2012}. 
+
+Automated classification of the adverse events in the MAUDE database would provide health officials with a better understanding of the risks of different classes of medical technology and allow manufacturers to understand patterns of failure in particular classes of devices. This knowledge could then be used to improve the quality of these devices and ultimately reduce the number of adverse events. 
+
 \section{Conclusion}
-Mention something here about the variability in the results being due to the newness of the openFDA API and the fact that data is not sanitized before input in any way.
-
+Two approaches to analyzing data from the FDA's MAUDE database were undertaken, one focused on a classifying adverse events based on outcome (death, injury, malfunction etc.), and the other used word frequency analysis on the description of the adverse event. In both cases a Naive Bayes classification approach was used. The classification results were extremely variable and showed only partial trends in the data. The variation in the results was likely due to the naive approaches used for data collection and analysis coupled with a noisy and incomplete dataset. The data in the MAUDE database has the potential to change the way in medical device failures are understood. Attempts to classify the adverse events in the MAUDE, such as the one present in this report, are an important step in directing future directions in medical device safety. 
+\newpage 
 \section{Appendix}
+This appendix contains two tables which were omitted from the body of the report. The first table shows the original classes used by Mason-Blakely and Habibi to classify the records related to software in the MAUDE database. The second shows the condensed set of classes that were used in this project, these were based on the classifications in the first table. 
 
-\begin{table}[htdp]
+\begin{table}[ht]
 \caption{Original Classifications}
 \label{tab:OriginalClassifications}
 \begin{center}
@@ -509,7 +514,7 @@ TechnicalProcess.Controller.Capital \newline TechnicalProcess.Controller.Respons
 \label{default}
 \end{table}%
 
-\begin{table}[htdp]
+\begin{table}[ht]
 \caption{Simplified Classifications}
 \label{tab:SimplifiedClassifications}
 \begin{center}
@@ -528,6 +533,7 @@ TechnicalProcess \\ \hline
 \end{center}
 \label{default}
 \end{table}%
+
 
 \clearpage
 
